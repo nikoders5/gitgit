@@ -1,0 +1,1415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="5" total="59" passed="52">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HeartBeat Test Suite" duration-ms="5510404" started-at="2019-04-08T08:53:33Z" finished-at="2019-04-08T10:25:24Z">
+    <groups>
+    </groups>
+    <test name="Users-RolesTest" duration-ms="1156800" started-at="2019-04-08T08:53:33Z" finished-at="2019-04-08T09:12:50Z">
+      <class name="com.profiler.scripts.RoleManager">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.profiler.scripts.RoleManager@661972b0]" name="setup" is-config="true" duration-ms="6373" started-at="2019-04-08T14:28:55Z" finished-at="2019-04-08T14:29:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="testCreateRole()[pri:0, instance:com.profiler.scripts.RoleManager@661972b0]" name="testCreateRole" duration-ms="297520" started-at="2019-04-08T14:29:01Z" finished-at="2019-04-08T14:33:59Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //a[text()='User Management'] (tried for 200 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[text()='User Management'] (tried for 200 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.profiler.utils.RoleManagerUtil.assignActionsToRole(RoleManagerUtil.java:115)
+	at com.profiler.utils.RoleManagerUtil.createRole(RoleManagerUtil.java:42)
+	at com.profiler.scripts.RoleManager.testCreateRole(RoleManager.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //a[text()='User Management']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'NGD24116', ip: '10.222.79.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_72'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 27 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateRole -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.scripts.RoleManager@661972b0]" name="tearDown" is-config="true" duration-ms="609" started-at="2019-04-08T14:33:59Z" finished-at="2019-04-08T14:33:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateRole status=FAILURE method=RoleManager.testCreateRole()[pri:0, instance:com.profiler.scripts.RoleManager@661972b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="testCreateUserGroup()[pri:0, instance:com.profiler.scripts.RoleManager@661972b0]" name="testCreateUserGroup" duration-ms="265935" started-at="2019-04-08T14:33:59Z" finished-at="2019-04-08T14:38:25Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[UserGroup Creation failed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: UserGroup Creation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.profiler.scripts.RoleManager.testCreateUserGroup(RoleManager.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserGroup -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.scripts.RoleManager@661972b0]" name="tearDown" is-config="true" duration-ms="357" started-at="2019-04-08T14:38:25Z" finished-at="2019-04-08T14:38:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateUserGroup status=FAILURE method=RoleManager.testCreateUserGroup()[pri:0, instance:com.profiler.scripts.RoleManager@661972b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="testDeleteRole()[pri:0, instance:com.profiler.scripts.RoleManager@661972b0]" name="testDeleteRole" duration-ms="258950" started-at="2019-04-08T14:38:25Z" finished-at="2019-04-08T14:42:44Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //a[text()='User Management'] (tried for 200 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[text()='User Management'] (tried for 200 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.profiler.utils.RoleManagerUtil.assignActionsToRole(RoleManagerUtil.java:115)
+	at com.profiler.utils.RoleManagerUtil.createRole(RoleManagerUtil.java:42)
+	at com.profiler.scripts.RoleManager.testDeleteRole(RoleManager.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //a[text()='User Management']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'NGD24116', ip: '10.222.79.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_72'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 27 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteRole -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.scripts.RoleManager@661972b0]" name="tearDown" is-config="true" duration-ms="331" started-at="2019-04-08T14:42:44Z" finished-at="2019-04-08T14:42:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteRole status=FAILURE method=RoleManager.testDeleteRole()[pri:0, instance:com.profiler.scripts.RoleManager@661972b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.profiler.scripts.RoleManager@661972b0]" name="close_browser" is-config="true" duration-ms="4933" started-at="2019-04-08T14:42:45Z" finished-at="2019-04-08T14:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- com.profiler.scripts.RoleManager -->
+      <class name="com.profiler.scripts.UserManager">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.profiler.scripts.UserManager@47af7f3d]" name="setup" is-config="true" duration-ms="2996" started-at="2019-04-08T14:23:33Z" finished-at="2019-04-08T14:23:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testCreateUser()[pri:0, instance:com.profiler.scripts.UserManager@47af7f3d]" name="testCreateUser" duration-ms="201861" started-at="2019-04-08T14:23:36Z" finished-at="2019-04-08T14:26:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method status="FAIL" signature="testSearchUser()[pri:0, instance:com.profiler.scripts.UserManager@47af7f3d]" name="testSearchUser" duration-ms="109438" started-at="2019-04-08T14:26:58Z" depends-on-methods="com.profiler.scripts.UserManager.testCreateUser" finished-at="2019-04-08T14:28:48Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='text' and @id='keyword'] (tried for 40 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='text' and @id='keyword'] (tried for 40 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.profiler.utils.AppUtil.searchUserFromToolsPage(AppUtil.java:597)
+	at com.profiler.scripts.UserManager.testSearchUser(UserManager.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //input[@type='text' and @id='keyword']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'NGD24116', ip: '10.222.79.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_72'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchUser -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.scripts.UserManager@47af7f3d]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T14:26:58Z" finished-at="2019-04-08T14:26:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateUser status=SUCCESS method=UserManager.testCreateUser()[pri:0, instance:com.profiler.scripts.UserManager@47af7f3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.scripts.UserManager@47af7f3d]" name="tearDown" is-config="true" duration-ms="1724" started-at="2019-04-08T14:28:48Z" finished-at="2019-04-08T14:28:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchUser status=FAILURE method=UserManager.testSearchUser()[pri:0, instance:com.profiler.scripts.UserManager@47af7f3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="testEditUser()[pri:0, instance:com.profiler.scripts.UserManager@47af7f3d]" name="testEditUser" duration-ms="0" started-at="2019-04-08T14:28:50Z" depends-on-methods="com.profiler.scripts.UserManager.testSearchUser" finished-at="2019-04-08T14:28:50Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method UserManager.testEditUser()[pri:0, instance:com.profiler.scripts.UserManager@47af7f3d] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method UserManager.testEditUser()[pri:0, instance:com.profiler.scripts.UserManager@47af7f3d] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1039)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditUser -->
+        <test-method status="SKIP" signature="testDeleteUser()[pri:0, instance:com.profiler.scripts.UserManager@47af7f3d]" name="testDeleteUser" duration-ms="0" started-at="2019-04-08T14:28:50Z" depends-on-methods="com.profiler.scripts.UserManager.testEditUser" finished-at="2019-04-08T14:28:50Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method UserManager.testDeleteUser()[pri:0, instance:com.profiler.scripts.UserManager@47af7f3d] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method UserManager.testDeleteUser()[pri:0, instance:com.profiler.scripts.UserManager@47af7f3d] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1039)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.profiler.scripts.UserManager@47af7f3d]" name="close_browser" is-config="true" duration-ms="4876" started-at="2019-04-08T14:28:50Z" finished-at="2019-04-08T14:28:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.profiler.scripts.UserManager@47af7f3d]" name="endReport" is-config="true" duration-ms="532" started-at="2019-04-08T14:42:50Z" finished-at="2019-04-08T14:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.profiler.scripts.UserManager -->
+    </test> <!-- Users-RolesTest -->
+    <test name="ContractMgtTest-P" duration-ms="497920" started-at="2019-04-08T09:12:50Z" finished-at="2019-04-08T09:21:08Z">
+      <class name="com.profiler.contractmgt.ContractManagementTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.profiler.contractmgt.ContractManagementTest@53aac487]" name="setup" is-config="true" duration-ms="3367" started-at="2019-04-08T14:42:50Z" finished-at="2019-04-08T14:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AddContractManagement()[pri:0, instance:com.profiler.contractmgt.ContractManagementTest@53aac487]" name="AddContractManagement" duration-ms="164048" started-at="2019-04-08T14:42:54Z" finished-at="2019-04-08T14:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddContractManagement -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.profiler.contractmgt.ContractManagementTest@53aac487]" name="close_browser" is-config="true" duration-ms="4794" started-at="2019-04-08T14:45:38Z" finished-at="2019-04-08T14:45:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.contractmgt.ContractManagementTest@53aac487]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T14:45:38Z" finished-at="2019-04-08T14:45:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddContractManagement status=SUCCESS method=ContractManagementTest.AddContractManagement()[pri:0, instance:com.profiler.contractmgt.ContractManagementTest@53aac487] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.profiler.contractmgt.ContractManagementTest@53aac487]" name="endReport" is-config="true" duration-ms="32" started-at="2019-04-08T14:51:08Z" finished-at="2019-04-08T14:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.profiler.contractmgt.ContractManagementTest -->
+      <class name="com.profiler.contractmgt.CountryPaymentThreshold">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.profiler.contractmgt.CountryPaymentThreshold@52b1beb6]" name="setup" is-config="true" duration-ms="2264" started-at="2019-04-08T14:45:42Z" finished-at="2019-04-08T14:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AddCountryPaymentThreshold()[pri:0, instance:com.profiler.contractmgt.CountryPaymentThreshold@52b1beb6]" name="AddCountryPaymentThreshold" duration-ms="170500" started-at="2019-04-08T14:45:45Z" finished-at="2019-04-08T14:48:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCountryPaymentThreshold -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.contractmgt.CountryPaymentThreshold@52b1beb6]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T14:48:35Z" finished-at="2019-04-08T14:48:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddCountryPaymentThreshold status=SUCCESS method=CountryPaymentThreshold.AddCountryPaymentThreshold()[pri:0, instance:com.profiler.contractmgt.CountryPaymentThreshold@52b1beb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.profiler.contractmgt.CountryPaymentThreshold@52b1beb6]" name="close_browser" is-config="true" duration-ms="4897" started-at="2019-04-08T14:48:35Z" finished-at="2019-04-08T14:48:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- com.profiler.contractmgt.CountryPaymentThreshold -->
+      <class name="com.profiler.contractmgt.TypePaymentThreshold">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.profiler.contractmgt.TypePaymentThreshold@273e7444]" name="setup" is-config="true" duration-ms="4258" started-at="2019-04-08T14:48:40Z" finished-at="2019-04-08T14:48:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AddCountryPaymentThreshold()[pri:0, instance:com.profiler.contractmgt.TypePaymentThreshold@273e7444]" name="AddCountryPaymentThreshold" duration-ms="138963" started-at="2019-04-08T14:48:44Z" finished-at="2019-04-08T14:51:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCountryPaymentThreshold -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.contractmgt.TypePaymentThreshold@273e7444]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T14:51:03Z" finished-at="2019-04-08T14:51:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddCountryPaymentThreshold status=SUCCESS method=TypePaymentThreshold.AddCountryPaymentThreshold()[pri:0, instance:com.profiler.contractmgt.TypePaymentThreshold@273e7444] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.profiler.contractmgt.TypePaymentThreshold@273e7444]" name="close_browser" is-config="true" duration-ms="4796" started-at="2019-04-08T14:51:03Z" finished-at="2019-04-08T14:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- com.profiler.contractmgt.TypePaymentThreshold -->
+    </test> <!-- ContractMgtTest-P -->
+    <test name="TemplateTest-V" duration-ms="978058" started-at="2019-04-08T09:21:08Z" finished-at="2019-04-08T09:37:26Z">
+      <class name="com.profiler.scripts.TemplateTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.profiler.scripts.TemplateTest@3f6f6701]" name="setup" is-config="true" duration-ms="1910" started-at="2019-04-08T14:51:08Z" finished-at="2019-04-08T14:51:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testCustomizeTemplate()[pri:0, instance:com.profiler.scripts.TemplateTest@3f6f6701]" name="testCustomizeTemplate" duration-ms="793860" started-at="2019-04-08T14:51:10Z" finished-at="2019-04-08T15:04:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomizeTemplate -->
+        <test-method status="PASS" signature="testTemplate()[pri:0, instance:com.profiler.scripts.TemplateTest@3f6f6701]" name="testTemplate" duration-ms="177347" started-at="2019-04-08T15:04:24Z" finished-at="2019-04-08T15:07:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTemplate -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.scripts.TemplateTest@3f6f6701]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:04:24Z" finished-at="2019-04-08T15:04:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCustomizeTemplate status=SUCCESS method=TemplateTest.testCustomizeTemplate()[pri:0, instance:com.profiler.scripts.TemplateTest@3f6f6701] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.scripts.TemplateTest@3f6f6701]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:07:21Z" finished-at="2019-04-08T15:07:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTemplate status=SUCCESS method=TemplateTest.testTemplate()[pri:0, instance:com.profiler.scripts.TemplateTest@3f6f6701] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.profiler.scripts.TemplateTest@3f6f6701]" name="close_browser" is-config="true" duration-ms="4894" started-at="2019-04-08T15:07:21Z" finished-at="2019-04-08T15:07:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.profiler.scripts.TemplateTest@3f6f6701]" name="endReport" is-config="true" duration-ms="47" started-at="2019-04-08T15:07:26Z" finished-at="2019-04-08T15:07:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.profiler.scripts.TemplateTest -->
+    </test> <!-- TemplateTest-V -->
+    <test name="ClassificationTest-H" duration-ms="809421" started-at="2019-04-08T09:37:27Z" finished-at="2019-04-08T09:50:56Z">
+      <class name="com.profiler.classification.TherapeuticAreaTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.profiler.classification.TherapeuticAreaTest@48075da3]" name="setup" is-config="true" duration-ms="1244" started-at="2019-04-08T15:19:12Z" finished-at="2019-04-08T15:19:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testCreateTherapeuticArea()[pri:0, instance:com.profiler.classification.TherapeuticAreaTest@48075da3]" name="testCreateTherapeuticArea" duration-ms="48301" started-at="2019-04-08T15:19:13Z" finished-at="2019-04-08T15:20:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateTherapeuticArea -->
+        <test-method status="PASS" signature="testDeleteTherapeuticArea()[pri:0, instance:com.profiler.classification.TherapeuticAreaTest@48075da3]" name="testDeleteTherapeuticArea" duration-ms="49338" started-at="2019-04-08T15:20:02Z" finished-at="2019-04-08T15:20:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteTherapeuticArea -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.classification.TherapeuticAreaTest@48075da3]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:20:02Z" finished-at="2019-04-08T15:20:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateTherapeuticArea status=SUCCESS method=TherapeuticAreaTest.testCreateTherapeuticArea()[pri:0, instance:com.profiler.classification.TherapeuticAreaTest@48075da3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testEditTherapeuticArea()[pri:0, instance:com.profiler.classification.TherapeuticAreaTest@48075da3]" name="testEditTherapeuticArea" duration-ms="28" started-at="2019-04-08T15:20:51Z" finished-at="2019-04-08T15:20:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditTherapeuticArea -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.classification.TherapeuticAreaTest@48075da3]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:20:51Z" finished-at="2019-04-08T15:20:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteTherapeuticArea status=SUCCESS method=TherapeuticAreaTest.testDeleteTherapeuticArea()[pri:0, instance:com.profiler.classification.TherapeuticAreaTest@48075da3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.classification.TherapeuticAreaTest@48075da3]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:20:51Z" finished-at="2019-04-08T15:20:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEditTherapeuticArea status=SUCCESS method=TherapeuticAreaTest.testEditTherapeuticArea()[pri:0, instance:com.profiler.classification.TherapeuticAreaTest@48075da3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testMultipleTherapeuticAreasDelete()[pri:0, instance:com.profiler.classification.TherapeuticAreaTest@48075da3]" name="testMultipleTherapeuticAreasDelete" duration-ms="28" started-at="2019-04-08T15:20:51Z" finished-at="2019-04-08T15:20:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleTherapeuticAreasDelete -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.classification.TherapeuticAreaTest@48075da3]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:20:51Z" finished-at="2019-04-08T15:20:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMultipleTherapeuticAreasDelete status=SUCCESS method=TherapeuticAreaTest.testMultipleTherapeuticAreasDelete()[pri:0, instance:com.profiler.classification.TherapeuticAreaTest@48075da3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.profiler.classification.TherapeuticAreaTest@48075da3]" name="close_browser" is-config="true" duration-ms="4774" started-at="2019-04-08T15:20:51Z" finished-at="2019-04-08T15:20:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- com.profiler.classification.TherapeuticAreaTest -->
+      <class name="com.profiler.classification.Brand1">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.profiler.classification.Brand1@18271936]" name="setup" is-config="true" duration-ms="2632" started-at="2019-04-08T15:07:27Z" finished-at="2019-04-08T15:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addBrand()[pri:1, instance:com.profiler.classification.Brand1@18271936]" name="addBrand" duration-ms="66278" started-at="2019-04-08T15:07:29Z" finished-at="2019-04-08T15:08:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBrand -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.classification.Brand1@18271936]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:08:35Z" finished-at="2019-04-08T15:08:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addBrand status=SUCCESS method=Brand1.addBrand()[pri:1, instance:com.profiler.classification.Brand1@18271936] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyBrand()[pri:2, instance:com.profiler.classification.Brand1@18271936]" name="verifyBrand" duration-ms="33994" started-at="2019-04-08T15:08:35Z" finished-at="2019-04-08T15:09:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrand -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.classification.Brand1@18271936]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:09:09Z" finished-at="2019-04-08T15:09:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBrand status=SUCCESS method=Brand1.verifyBrand()[pri:2, instance:com.profiler.classification.Brand1@18271936] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyBrndProfile()[pri:3, instance:com.profiler.classification.Brand1@18271936]" name="verifyBrndProfile" duration-ms="35520" started-at="2019-04-08T15:09:09Z" finished-at="2019-04-08T15:09:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrndProfile -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.classification.Brand1@18271936]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:09:45Z" finished-at="2019-04-08T15:09:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBrndProfile status=SUCCESS method=Brand1.verifyBrndProfile()[pri:3, instance:com.profiler.classification.Brand1@18271936] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="deleteBrand()[pri:4, instance:com.profiler.classification.Brand1@18271936]" name="deleteBrand" duration-ms="38511" started-at="2019-04-08T15:09:45Z" finished-at="2019-04-08T15:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBrand -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.classification.Brand1@18271936]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:10:23Z" finished-at="2019-04-08T15:10:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteBrand status=SUCCESS method=Brand1.deleteBrand()[pri:4, instance:com.profiler.classification.Brand1@18271936] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyBrandDelFromClassification()[pri:5, instance:com.profiler.classification.Brand1@18271936]" name="verifyBrandDelFromClassification" duration-ms="44431" started-at="2019-04-08T15:10:23Z" finished-at="2019-04-08T15:11:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrandDelFromClassification -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.classification.Brand1@18271936]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-04-08T15:11:08Z" finished-at="2019-04-08T15:11:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBrandDelFromClassification status=SUCCESS method=Brand1.verifyBrandDelFromClassification()[pri:5, instance:com.profiler.classification.Brand1@18271936] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyBrandDelFromProfile()[pri:6, instance:com.profiler.classification.Brand1@18271936]" name="verifyBrandDelFromProfile" duration-ms="60372" started-at="2019-04-08T15:11:08Z" finished-at="2019-04-08T15:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrandDelFromProfile -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.classification.Brand1@18271936]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:12:08Z" finished-at="2019-04-08T15:12:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBrandDelFromProfile status=SUCCESS method=Brand1.verifyBrandDelFromProfile()[pri:6, instance:com.profiler.classification.Brand1@18271936] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.profiler.classification.Brand1@18271936]" name="close_browser" is-config="true" duration-ms="4831" started-at="2019-04-08T15:12:08Z" finished-at="2019-04-08T15:12:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.profiler.classification.Brand1@18271936]" name="endReport" is-config="true" duration-ms="47" started-at="2019-04-08T15:20:56Z" finished-at="2019-04-08T15:20:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.profiler.classification.Brand1 -->
+      <class name="com.profiler.classification.ProfileRoleTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.profiler.classification.ProfileRoleTest@8458f04]" name="setup" is-config="true" duration-ms="1976" started-at="2019-04-08T15:17:21Z" finished-at="2019-04-08T15:17:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testCreateProfileRole()[pri:0, instance:com.profiler.classification.ProfileRoleTest@8458f04]" name="testCreateProfileRole" duration-ms="57168" started-at="2019-04-08T15:17:23Z" finished-at="2019-04-08T15:18:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateProfileRole -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.classification.ProfileRoleTest@8458f04]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:18:20Z" finished-at="2019-04-08T15:18:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateProfileRole status=SUCCESS method=ProfileRoleTest.testCreateProfileRole()[pri:0, instance:com.profiler.classification.ProfileRoleTest@8458f04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testDeleteProfileRole()[pri:0, instance:com.profiler.classification.ProfileRoleTest@8458f04]" name="testDeleteProfileRole" duration-ms="47282" started-at="2019-04-08T15:18:20Z" finished-at="2019-04-08T15:19:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteProfileRole -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.classification.ProfileRoleTest@8458f04]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-04-08T15:19:07Z" finished-at="2019-04-08T15:19:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteProfileRole status=SUCCESS method=ProfileRoleTest.testDeleteProfileRole()[pri:0, instance:com.profiler.classification.ProfileRoleTest@8458f04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testEditProfileRole()[pri:0, instance:com.profiler.classification.ProfileRoleTest@8458f04]" name="testEditProfileRole" duration-ms="53" started-at="2019-04-08T15:19:07Z" finished-at="2019-04-08T15:19:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditProfileRole -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.classification.ProfileRoleTest@8458f04]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:19:07Z" finished-at="2019-04-08T15:19:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEditProfileRole status=SUCCESS method=ProfileRoleTest.testEditProfileRole()[pri:0, instance:com.profiler.classification.ProfileRoleTest@8458f04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testMultipleProfileRolesDelete()[pri:0, instance:com.profiler.classification.ProfileRoleTest@8458f04]" name="testMultipleProfileRolesDelete" duration-ms="26" started-at="2019-04-08T15:19:07Z" finished-at="2019-04-08T15:19:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleProfileRolesDelete -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.profiler.classification.ProfileRoleTest@8458f04]" name="close_browser" is-config="true" duration-ms="4764" started-at="2019-04-08T15:19:07Z" finished-at="2019-04-08T15:19:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.classification.ProfileRoleTest@8458f04]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:19:07Z" finished-at="2019-04-08T15:19:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMultipleProfileRolesDelete status=SUCCESS method=ProfileRoleTest.testMultipleProfileRolesDelete()[pri:0, instance:com.profiler.classification.ProfileRoleTest@8458f04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.profiler.classification.ProfileRoleTest -->
+      <class name="com.profiler.classification.Brand2">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.profiler.classification.Brand2@606e4010]" name="setup" is-config="true" duration-ms="1402" started-at="2019-04-08T15:12:13Z" finished-at="2019-04-08T15:12:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addBrand()[pri:1, instance:com.profiler.classification.Brand2@606e4010]" name="addBrand" duration-ms="55219" started-at="2019-04-08T15:12:15Z" finished-at="2019-04-08T15:13:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBrand -->
+        <test-method status="PASS" signature="verifyBrand()[pri:2, instance:com.profiler.classification.Brand2@606e4010]" name="verifyBrand" duration-ms="83069" started-at="2019-04-08T15:13:10Z" finished-at="2019-04-08T15:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrand -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.classification.Brand2@606e4010]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:13:10Z" finished-at="2019-04-08T15:13:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addBrand status=SUCCESS method=Brand2.addBrand()[pri:1, instance:com.profiler.classification.Brand2@606e4010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.classification.Brand2@606e4010]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-04-08T15:14:33Z" finished-at="2019-04-08T15:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBrand status=SUCCESS method=Brand2.verifyBrand()[pri:2, instance:com.profiler.classification.Brand2@606e4010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyBrndProfile()[pri:3, instance:com.profiler.classification.Brand2@606e4010]" name="verifyBrndProfile" duration-ms="32370" started-at="2019-04-08T15:14:33Z" finished-at="2019-04-08T15:15:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrndProfile -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.classification.Brand2@606e4010]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:15:05Z" finished-at="2019-04-08T15:15:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBrndProfile status=SUCCESS method=Brand2.verifyBrndProfile()[pri:3, instance:com.profiler.classification.Brand2@606e4010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="deleteBrand()[pri:4, instance:com.profiler.classification.Brand2@606e4010]" name="deleteBrand" duration-ms="28871" started-at="2019-04-08T15:15:05Z" finished-at="2019-04-08T15:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBrand -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.classification.Brand2@606e4010]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:15:34Z" finished-at="2019-04-08T15:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteBrand status=SUCCESS method=Brand2.deleteBrand()[pri:4, instance:com.profiler.classification.Brand2@606e4010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="verifyBrandDelFromClassification()[pri:5, instance:com.profiler.classification.Brand2@606e4010]" name="verifyBrandDelFromClassification" duration-ms="29721" started-at="2019-04-08T15:15:34Z" finished-at="2019-04-08T15:16:04Z">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression //*[@id='classificationDiv']/table/tbody/tr/td[2]/following::div[@id='highlightkeyword']/following::img)[1] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id='classificationDiv']/table/tbody/tr/td[2]/following::div[@id='highlightkeyword']/following::img)[1]' is not a valid XPath expression.
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'NGD24116', ip: '10.222.79.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_72'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SUVI_W~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 46f59107f046404d49486c49fe4e1416
+*** Element info: {Using=xpath, value=//*[@id='classificationDiv']/table/tbody/tr/td[2]/following::div[@id='highlightkeyword']/following::img)[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@id='classificationDiv']/table/tbody/tr/td[2]/following::div[@id='highlightkeyword']/following::img)[1] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id='classificationDiv']/table/tbody/tr/td[2]/following::div[@id='highlightkeyword']/following::img)[1]' is not a valid XPath expression.
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'NGD24116', ip: '10.222.79.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_72'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SUVI_W~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 46f59107f046404d49486c49fe4e1416
+*** Element info: {Using=xpath, value=//*[@id='classificationDiv']/table/tbody/tr/td[2]/following::div[@id='highlightkeyword']/following::img)[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at com.profiler.classification.Brand2.verifyBrandDelFromClassification(Brand2.java:289)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrandDelFromClassification -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.classification.Brand2@606e4010]" name="tearDown" is-config="true" duration-ms="623" started-at="2019-04-08T15:16:04Z" finished-at="2019-04-08T15:16:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBrandDelFromClassification status=FAILURE method=Brand2.verifyBrandDelFromClassification()[pri:5, instance:com.profiler.classification.Brand2@606e4010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyBrandDelFromProfile()[pri:6, instance:com.profiler.classification.Brand2@606e4010]" name="verifyBrandDelFromProfile" duration-ms="71735" started-at="2019-04-08T15:16:04Z" finished-at="2019-04-08T15:17:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrandDelFromProfile -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.profiler.classification.Brand2@606e4010]" name="close_browser" is-config="true" duration-ms="4799" started-at="2019-04-08T15:17:16Z" finished-at="2019-04-08T15:17:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.classification.Brand2@606e4010]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:17:16Z" finished-at="2019-04-08T15:17:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBrandDelFromProfile status=SUCCESS method=Brand2.verifyBrandDelFromProfile()[pri:6, instance:com.profiler.classification.Brand2@606e4010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.profiler.classification.Brand2 -->
+    </test> <!-- ClassificationTest-H -->
+    <test name="DataTest-R" duration-ms="2067814" started-at="2019-04-08T09:50:56Z" finished-at="2019-04-08T10:25:24Z">
+      <class name="com.profiler.data.InfluenceStrength">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.profiler.data.InfluenceStrength@cecf639]" name="setup" is-config="true" duration-ms="3285" started-at="2019-04-08T15:42:25Z" finished-at="2019-04-08T15:42:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testCreateInflncStrngth()[pri:0, instance:com.profiler.data.InfluenceStrength@cecf639]" name="testCreateInflncStrngth" duration-ms="71558" started-at="2019-04-08T15:42:28Z" finished-at="2019-04-08T15:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateInflncStrngth -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.InfluenceStrength@cecf639]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:43:40Z" finished-at="2019-04-08T15:43:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateInflncStrngth status=SUCCESS method=InfluenceStrength.testCreateInflncStrngth()[pri:0, instance:com.profiler.data.InfluenceStrength@cecf639] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testDeleteInflncStrngth()[pri:0, instance:com.profiler.data.InfluenceStrength@cecf639]" name="testDeleteInflncStrngth" duration-ms="105431" started-at="2019-04-08T15:43:40Z" finished-at="2019-04-08T15:45:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteInflncStrngth -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.InfluenceStrength@cecf639]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:45:25Z" finished-at="2019-04-08T15:45:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteInflncStrngth status=SUCCESS method=InfluenceStrength.testDeleteInflncStrngth()[pri:0, instance:com.profiler.data.InfluenceStrength@cecf639] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testEditInflncStrngth()[pri:0, instance:com.profiler.data.InfluenceStrength@cecf639]" name="testEditInflncStrngth" duration-ms="97806" started-at="2019-04-08T15:45:25Z" finished-at="2019-04-08T15:47:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditInflncStrngth -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.profiler.data.InfluenceStrength@cecf639]" name="close_browser" is-config="true" duration-ms="4799" started-at="2019-04-08T15:47:03Z" finished-at="2019-04-08T15:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.InfluenceStrength@cecf639]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:47:03Z" finished-at="2019-04-08T15:47:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEditInflncStrngth status=SUCCESS method=InfluenceStrength.testEditInflncStrngth()[pri:0, instance:com.profiler.data.InfluenceStrength@cecf639] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.profiler.data.InfluenceStrength -->
+      <class name="com.profiler.data.Condition">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.profiler.data.Condition@710c2b53]" name="setup" is-config="true" duration-ms="1829" started-at="2019-04-08T15:30:34Z" finished-at="2019-04-08T15:30:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testCreateCondition()[pri:0, instance:com.profiler.data.Condition@710c2b53]" name="testCreateCondition" duration-ms="46247" started-at="2019-04-08T15:30:35Z" finished-at="2019-04-08T15:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateCondition -->
+        <test-method status="PASS" signature="testDeleteCondition()[pri:0, instance:com.profiler.data.Condition@710c2b53]" name="testDeleteCondition" duration-ms="61050" started-at="2019-04-08T15:31:22Z" finished-at="2019-04-08T15:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteCondition -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.Condition@710c2b53]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:31:22Z" finished-at="2019-04-08T15:31:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateCondition status=SUCCESS method=Condition.testCreateCondition()[pri:0, instance:com.profiler.data.Condition@710c2b53] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.Condition@710c2b53]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:32:23Z" finished-at="2019-04-08T15:32:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteCondition status=SUCCESS method=Condition.testDeleteCondition()[pri:0, instance:com.profiler.data.Condition@710c2b53] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testEditCondition()[pri:0, instance:com.profiler.data.Condition@710c2b53]" name="testEditCondition" duration-ms="38127" started-at="2019-04-08T15:32:23Z" finished-at="2019-04-08T15:33:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditCondition -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.profiler.data.Condition@710c2b53]" name="close_browser" is-config="true" duration-ms="4803" started-at="2019-04-08T15:33:01Z" finished-at="2019-04-08T15:33:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.Condition@710c2b53]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:33:01Z" finished-at="2019-04-08T15:33:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEditCondition status=SUCCESS method=Condition.testEditCondition()[pri:0, instance:com.profiler.data.Condition@710c2b53] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.profiler.data.Condition -->
+      <class name="com.profiler.data.OrganizationPosition">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.profiler.data.OrganizationPosition@7ce026d3]" name="setup" is-config="true" duration-ms="2108" started-at="2019-04-08T15:51:53Z" finished-at="2019-04-08T15:51:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testCreateOrgPosition()[pri:0, instance:com.profiler.data.OrganizationPosition@7ce026d3]" name="testCreateOrgPosition" duration-ms="42326" started-at="2019-04-08T15:51:55Z" finished-at="2019-04-08T15:52:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateOrgPosition -->
+        <test-method status="PASS" signature="testDeleteOrgPosition()[pri:0, instance:com.profiler.data.OrganizationPosition@7ce026d3]" name="testDeleteOrgPosition" duration-ms="111552" started-at="2019-04-08T15:52:37Z" finished-at="2019-04-08T15:54:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteOrgPosition -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.OrganizationPosition@7ce026d3]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:52:37Z" finished-at="2019-04-08T15:52:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateOrgPosition status=SUCCESS method=OrganizationPosition.testCreateOrgPosition()[pri:0, instance:com.profiler.data.OrganizationPosition@7ce026d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testEditOrgPosition()[pri:0, instance:com.profiler.data.OrganizationPosition@7ce026d3]" name="testEditOrgPosition" duration-ms="50155" started-at="2019-04-08T15:54:29Z" finished-at="2019-04-08T15:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditOrgPosition -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.OrganizationPosition@7ce026d3]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:54:29Z" finished-at="2019-04-08T15:54:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteOrgPosition status=SUCCESS method=OrganizationPosition.testDeleteOrgPosition()[pri:0, instance:com.profiler.data.OrganizationPosition@7ce026d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.profiler.data.OrganizationPosition@7ce026d3]" name="close_browser" is-config="true" duration-ms="4862" started-at="2019-04-08T15:55:19Z" finished-at="2019-04-08T15:55:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.OrganizationPosition@7ce026d3]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:55:19Z" finished-at="2019-04-08T15:55:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEditOrgPosition status=SUCCESS method=OrganizationPosition.testEditOrgPosition()[pri:0, instance:com.profiler.data.OrganizationPosition@7ce026d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.profiler.data.OrganizationPosition -->
+      <class name="com.profiler.data.GoalsFunctions">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.profiler.data.GoalsFunctions@5386659f]" name="setup" is-config="true" duration-ms="3299" started-at="2019-04-08T15:33:06Z" finished-at="2019-04-08T15:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testCreateGoalsFunctions()[pri:0, instance:com.profiler.data.GoalsFunctions@5386659f]" name="testCreateGoalsFunctions" duration-ms="69006" started-at="2019-04-08T15:33:09Z" finished-at="2019-04-08T15:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateGoalsFunctions -->
+        <test-method status="PASS" signature="testDeleteGoalsFunctions()[pri:0, instance:com.profiler.data.GoalsFunctions@5386659f]" name="testDeleteGoalsFunctions" duration-ms="100224" started-at="2019-04-08T15:34:18Z" finished-at="2019-04-08T15:35:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteGoalsFunctions -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.GoalsFunctions@5386659f]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:34:18Z" finished-at="2019-04-08T15:34:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateGoalsFunctions status=SUCCESS method=GoalsFunctions.testCreateGoalsFunctions()[pri:0, instance:com.profiler.data.GoalsFunctions@5386659f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.GoalsFunctions@5386659f]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:35:58Z" finished-at="2019-04-08T15:35:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteGoalsFunctions status=SUCCESS method=GoalsFunctions.testDeleteGoalsFunctions()[pri:0, instance:com.profiler.data.GoalsFunctions@5386659f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testEditGoalsFunctions()[pri:0, instance:com.profiler.data.GoalsFunctions@5386659f]" name="testEditGoalsFunctions" duration-ms="92607" started-at="2019-04-08T15:35:58Z" finished-at="2019-04-08T15:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditGoalsFunctions -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.GoalsFunctions@5386659f]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:37:31Z" finished-at="2019-04-08T15:37:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEditGoalsFunctions status=SUCCESS method=GoalsFunctions.testEditGoalsFunctions()[pri:0, instance:com.profiler.data.GoalsFunctions@5386659f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.profiler.data.GoalsFunctions@5386659f]" name="close_browser" is-config="true" duration-ms="4801" started-at="2019-04-08T15:37:31Z" finished-at="2019-04-08T15:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- com.profiler.data.GoalsFunctions -->
+      <class name="com.profiler.data.ClinicalActivityType">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.profiler.data.ClinicalActivityType@6fa51cd4]" name="setup" is-config="true" duration-ms="1231" started-at="2019-04-08T15:25:25Z" finished-at="2019-04-08T15:25:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testCreateClinicalActType()[pri:0, instance:com.profiler.data.ClinicalActivityType@6fa51cd4]" name="testCreateClinicalActType" duration-ms="54039" started-at="2019-04-08T15:25:26Z" finished-at="2019-04-08T15:26:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateClinicalActType -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.ClinicalActivityType@6fa51cd4]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:26:20Z" finished-at="2019-04-08T15:26:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateClinicalActType status=SUCCESS method=ClinicalActivityType.testCreateClinicalActType()[pri:0, instance:com.profiler.data.ClinicalActivityType@6fa51cd4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testDeleteClinicalActType()[pri:0, instance:com.profiler.data.ClinicalActivityType@6fa51cd4]" name="testDeleteClinicalActType" duration-ms="60980" started-at="2019-04-08T15:26:20Z" finished-at="2019-04-08T15:27:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteClinicalActType -->
+        <test-method status="PASS" signature="testEditClinicalActType()[pri:0, instance:com.profiler.data.ClinicalActivityType@6fa51cd4]" name="testEditClinicalActType" duration-ms="38250" started-at="2019-04-08T15:27:21Z" finished-at="2019-04-08T15:27:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditClinicalActType -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.ClinicalActivityType@6fa51cd4]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:27:21Z" finished-at="2019-04-08T15:27:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteClinicalActType status=SUCCESS method=ClinicalActivityType.testDeleteClinicalActType()[pri:0, instance:com.profiler.data.ClinicalActivityType@6fa51cd4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.ClinicalActivityType@6fa51cd4]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:27:59Z" finished-at="2019-04-08T15:27:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEditClinicalActType status=SUCCESS method=ClinicalActivityType.testEditClinicalActType()[pri:0, instance:com.profiler.data.ClinicalActivityType@6fa51cd4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.profiler.data.ClinicalActivityType@6fa51cd4]" name="close_browser" is-config="true" duration-ms="4767" started-at="2019-04-08T15:27:59Z" finished-at="2019-04-08T15:28:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- com.profiler.data.ClinicalActivityType -->
+      <class name="com.profiler.data.GoalsTypes">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.profiler.data.GoalsTypes@14028087]" name="setup" is-config="true" duration-ms="4318" started-at="2019-04-08T15:37:36Z" finished-at="2019-04-08T15:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testCreateGoalsTypes()[pri:0, instance:com.profiler.data.GoalsTypes@14028087]" name="testCreateGoalsTypes" duration-ms="76591" started-at="2019-04-08T15:37:40Z" finished-at="2019-04-08T15:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateGoalsTypes -->
+        <test-method status="PASS" signature="testDeleteGoalsTypes()[pri:0, instance:com.profiler.data.GoalsTypes@14028087]" name="testDeleteGoalsTypes" duration-ms="106221" started-at="2019-04-08T15:38:56Z" finished-at="2019-04-08T15:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteGoalsTypes -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.GoalsTypes@14028087]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:38:56Z" finished-at="2019-04-08T15:38:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateGoalsTypes status=SUCCESS method=GoalsTypes.testCreateGoalsTypes()[pri:0, instance:com.profiler.data.GoalsTypes@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testEditGoalsTypes()[pri:0, instance:com.profiler.data.GoalsTypes@14028087]" name="testEditGoalsTypes" duration-ms="97201" started-at="2019-04-08T15:40:43Z" finished-at="2019-04-08T15:42:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditGoalsTypes -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.GoalsTypes@14028087]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:40:43Z" finished-at="2019-04-08T15:40:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteGoalsTypes status=SUCCESS method=GoalsTypes.testDeleteGoalsTypes()[pri:0, instance:com.profiler.data.GoalsTypes@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.GoalsTypes@14028087]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:42:20Z" finished-at="2019-04-08T15:42:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEditGoalsTypes status=SUCCESS method=GoalsTypes.testEditGoalsTypes()[pri:0, instance:com.profiler.data.GoalsTypes@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.profiler.data.GoalsTypes@14028087]" name="close_browser" is-config="true" duration-ms="4800" started-at="2019-04-08T15:42:20Z" finished-at="2019-04-08T15:42:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- com.profiler.data.GoalsTypes -->
+      <class name="com.profiler.data.InfluenceTypes">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.profiler.data.InfluenceTypes@1caa0244]" name="setup" is-config="true" duration-ms="1309" started-at="2019-04-08T15:47:08Z" finished-at="2019-04-08T15:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testCreateInflncType()[pri:0, instance:com.profiler.data.InfluenceTypes@1caa0244]" name="testCreateInflncType" duration-ms="85256" started-at="2019-04-08T15:47:09Z" finished-at="2019-04-08T15:48:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateInflncType -->
+        <test-method status="PASS" signature="testDeleteInflncType()[pri:0, instance:com.profiler.data.InfluenceTypes@1caa0244]" name="testDeleteInflncType" duration-ms="101264" started-at="2019-04-08T15:48:34Z" finished-at="2019-04-08T15:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteInflncType -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.InfluenceTypes@1caa0244]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:48:34Z" finished-at="2019-04-08T15:48:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateInflncType status=SUCCESS method=InfluenceTypes.testCreateInflncType()[pri:0, instance:com.profiler.data.InfluenceTypes@1caa0244] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testEditInflncType()[pri:0, instance:com.profiler.data.InfluenceTypes@1caa0244]" name="testEditInflncType" duration-ms="92567" started-at="2019-04-08T15:50:15Z" finished-at="2019-04-08T15:51:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditInflncType -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.InfluenceTypes@1caa0244]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:50:15Z" finished-at="2019-04-08T15:50:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteInflncType status=SUCCESS method=InfluenceTypes.testDeleteInflncType()[pri:0, instance:com.profiler.data.InfluenceTypes@1caa0244] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.InfluenceTypes@1caa0244]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:51:48Z" finished-at="2019-04-08T15:51:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEditInflncType status=SUCCESS method=InfluenceTypes.testEditInflncType()[pri:0, instance:com.profiler.data.InfluenceTypes@1caa0244] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.profiler.data.InfluenceTypes@1caa0244]" name="close_browser" is-config="true" duration-ms="4783" started-at="2019-04-08T15:51:48Z" finished-at="2019-04-08T15:51:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- com.profiler.data.InfluenceTypes -->
+      <class name="com.profiler.data.RejectionReason">
+        <test-method status="PASS" signature="setReport()[pri:0, instance:com.profiler.data.RejectionReason@402c4085]" name="setReport" is-config="true" duration-ms="79" started-at="2019-04-08T14:23:33Z" finished-at="2019-04-08T14:23:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.profiler.data.RejectionReason@402c4085]" name="setup" is-config="true" duration-ms="2061" started-at="2019-04-08T15:20:56Z" finished-at="2019-04-08T15:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testCreateRejectionReason()[pri:0, instance:com.profiler.data.RejectionReason@402c4085]" name="testCreateRejectionReason" duration-ms="65417" started-at="2019-04-08T15:20:58Z" finished-at="2019-04-08T15:22:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateRejectionReason -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.RejectionReason@402c4085]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:22:03Z" finished-at="2019-04-08T15:22:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateRejectionReason status=SUCCESS method=RejectionReason.testCreateRejectionReason()[pri:0, instance:com.profiler.data.RejectionReason@402c4085] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testDeleteRejectionReason()[pri:0, instance:com.profiler.data.RejectionReason@402c4085]" name="testDeleteRejectionReason" duration-ms="102994" started-at="2019-04-08T15:22:03Z" finished-at="2019-04-08T15:23:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteRejectionReason -->
+        <test-method status="PASS" signature="testEditRejectionReason()[pri:0, instance:com.profiler.data.RejectionReason@402c4085]" name="testEditRejectionReason" duration-ms="93694" started-at="2019-04-08T15:23:46Z" finished-at="2019-04-08T15:25:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditRejectionReason -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.RejectionReason@402c4085]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:23:46Z" finished-at="2019-04-08T15:23:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteRejectionReason status=SUCCESS method=RejectionReason.testDeleteRejectionReason()[pri:0, instance:com.profiler.data.RejectionReason@402c4085] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.RejectionReason@402c4085]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:25:20Z" finished-at="2019-04-08T15:25:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEditRejectionReason status=SUCCESS method=RejectionReason.testEditRejectionReason()[pri:0, instance:com.profiler.data.RejectionReason@402c4085] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.profiler.data.RejectionReason@402c4085]" name="close_browser" is-config="true" duration-ms="4807" started-at="2019-04-08T15:25:20Z" finished-at="2019-04-08T15:25:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.profiler.data.RejectionReason@402c4085]" name="endReport" is-config="true" duration-ms="47" started-at="2019-04-08T15:55:24Z" finished-at="2019-04-08T15:55:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.profiler.data.RejectionReason@402c4085]" name="close" is-config="true" duration-ms="16" started-at="2019-04-08T15:55:24Z" finished-at="2019-04-08T15:55:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.profiler.data.RejectionReason -->
+      <class name="com.profiler.data.CommitteeType">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.profiler.data.CommitteeType@2767e23c]" name="setup" is-config="true" duration-ms="1735" started-at="2019-04-08T15:28:04Z" finished-at="2019-04-08T15:28:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testCreateCommType()[pri:0, instance:com.profiler.data.CommitteeType@2767e23c]" name="testCreateCommType" duration-ms="45127" started-at="2019-04-08T15:28:06Z" finished-at="2019-04-08T15:28:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateCommType -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.CommitteeType@2767e23c]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:28:51Z" finished-at="2019-04-08T15:28:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateCommType status=SUCCESS method=CommitteeType.testCreateCommType()[pri:0, instance:com.profiler.data.CommitteeType@2767e23c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testDeleteCommType()[pri:0, instance:com.profiler.data.CommitteeType@2767e23c]" name="testDeleteCommType" duration-ms="59695" started-at="2019-04-08T15:28:51Z" finished-at="2019-04-08T15:29:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteCommType -->
+        <test-method status="PASS" signature="testEditCommType()[pri:0, instance:com.profiler.data.CommitteeType@2767e23c]" name="testEditCommType" duration-ms="37982" started-at="2019-04-08T15:29:51Z" finished-at="2019-04-08T15:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditCommType -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.CommitteeType@2767e23c]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:29:51Z" finished-at="2019-04-08T15:29:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteCommType status=SUCCESS method=CommitteeType.testDeleteCommType()[pri:0, instance:com.profiler.data.CommitteeType@2767e23c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.profiler.data.CommitteeType@2767e23c]" name="close_browser" is-config="true" duration-ms="4801" started-at="2019-04-08T15:30:29Z" finished-at="2019-04-08T15:30:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.profiler.data.CommitteeType@2767e23c]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-08T15:30:29Z" finished-at="2019-04-08T15:30:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEditCommType status=SUCCESS method=CommitteeType.testEditCommType()[pri:0, instance:com.profiler.data.CommitteeType@2767e23c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.profiler.data.CommitteeType -->
+    </test> <!-- DataTest-R -->
+  </suite> <!-- HeartBeat Test Suite -->
+</testng-results>

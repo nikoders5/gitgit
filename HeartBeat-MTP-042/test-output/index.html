@@ -1,0 +1,2662 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-HeartBeat_Test_Suite">
+              <span class="suite-name border-failed">HeartBeat Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-HeartBeat_Test_Suite">
+                    <span>D:\00 SELENIUM NEW\HeartBeat-MTP-04\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-HeartBeat_Test_Suite">
+                    <span class="test-stats">7 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-HeartBeat_Test_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-HeartBeat_Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-HeartBeat_Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-HeartBeat_Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-HeartBeat_Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">59 methods, 5 failed,  2 skipped,  52 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-HeartBeat_Test_Suite" class="hide-methods failed suite-HeartBeat_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-HeartBeat_Test_Suite -->
+                      <a href="#" panel-name="suite-HeartBeat_Test_Suite" class="show-methods failed suite-HeartBeat_Test_Suite"> (show)</a> <!-- show-methods failed suite-HeartBeat_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-HeartBeat_Test_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.scripts.RoleManager" hash-for-method="testCreateRole">testCreateRole</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.scripts.RoleManager" hash-for-method="testCreateUserGroup">testCreateUserGroup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.scripts.RoleManager" hash-for-method="testDeleteRole">testDeleteRole</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.scripts.UserManager" hash-for-method="testSearchUser">testSearchUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.classification.Brand2" hash-for-method="verifyBrandDelFromClassification">verifyBrandDelFromClassification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-HeartBeat_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-HeartBeat_Test_Suite" class="hide-methods skipped suite-HeartBeat_Test_Suite"> (hide)</a> <!-- hide-methods skipped suite-HeartBeat_Test_Suite -->
+                      <a href="#" panel-name="suite-HeartBeat_Test_Suite" class="show-methods skipped suite-HeartBeat_Test_Suite"> (show)</a> <!-- show-methods skipped suite-HeartBeat_Test_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-HeartBeat_Test_Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.scripts.UserManager" hash-for-method="testDeleteUser">testDeleteUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.scripts.UserManager" hash-for-method="testEditUser">testEditUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-HeartBeat_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-HeartBeat_Test_Suite" class="hide-methods passed suite-HeartBeat_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-HeartBeat_Test_Suite -->
+                      <a href="#" panel-name="suite-HeartBeat_Test_Suite" class="show-methods passed suite-HeartBeat_Test_Suite"> (show)</a> <!-- show-methods passed suite-HeartBeat_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-HeartBeat_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.contractmgt.ContractManagementTest" hash-for-method="AddContractManagement">AddContractManagement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.contractmgt.TypePaymentThreshold" hash-for-method="AddCountryPaymentThreshold">AddCountryPaymentThreshold</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.contractmgt.CountryPaymentThreshold" hash-for-method="AddCountryPaymentThreshold">AddCountryPaymentThreshold</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.classification.Brand1" hash-for-method="addBrand">addBrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.classification.Brand2" hash-for-method="addBrand">addBrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.classification.Brand2" hash-for-method="deleteBrand">deleteBrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.classification.Brand1" hash-for-method="deleteBrand">deleteBrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.ClinicalActivityType" hash-for-method="testCreateClinicalActType">testCreateClinicalActType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.CommitteeType" hash-for-method="testCreateCommType">testCreateCommType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.Condition" hash-for-method="testCreateCondition">testCreateCondition</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.GoalsFunctions" hash-for-method="testCreateGoalsFunctions">testCreateGoalsFunctions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.GoalsTypes" hash-for-method="testCreateGoalsTypes">testCreateGoalsTypes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.InfluenceStrength" hash-for-method="testCreateInflncStrngth">testCreateInflncStrngth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.InfluenceTypes" hash-for-method="testCreateInflncType">testCreateInflncType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.OrganizationPosition" hash-for-method="testCreateOrgPosition">testCreateOrgPosition</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.classification.ProfileRoleTest" hash-for-method="testCreateProfileRole">testCreateProfileRole</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.RejectionReason" hash-for-method="testCreateRejectionReason">testCreateRejectionReason</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.classification.TherapeuticAreaTest" hash-for-method="testCreateTherapeuticArea">testCreateTherapeuticArea</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.scripts.UserManager" hash-for-method="testCreateUser">testCreateUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.scripts.TemplateTest" hash-for-method="testCustomizeTemplate">testCustomizeTemplate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.ClinicalActivityType" hash-for-method="testDeleteClinicalActType">testDeleteClinicalActType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.CommitteeType" hash-for-method="testDeleteCommType">testDeleteCommType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.Condition" hash-for-method="testDeleteCondition">testDeleteCondition</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.GoalsFunctions" hash-for-method="testDeleteGoalsFunctions">testDeleteGoalsFunctions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.GoalsTypes" hash-for-method="testDeleteGoalsTypes">testDeleteGoalsTypes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.InfluenceStrength" hash-for-method="testDeleteInflncStrngth">testDeleteInflncStrngth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.InfluenceTypes" hash-for-method="testDeleteInflncType">testDeleteInflncType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.OrganizationPosition" hash-for-method="testDeleteOrgPosition">testDeleteOrgPosition</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.classification.ProfileRoleTest" hash-for-method="testDeleteProfileRole">testDeleteProfileRole</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.RejectionReason" hash-for-method="testDeleteRejectionReason">testDeleteRejectionReason</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.classification.TherapeuticAreaTest" hash-for-method="testDeleteTherapeuticArea">testDeleteTherapeuticArea</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.ClinicalActivityType" hash-for-method="testEditClinicalActType">testEditClinicalActType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.CommitteeType" hash-for-method="testEditCommType">testEditCommType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.Condition" hash-for-method="testEditCondition">testEditCondition</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.GoalsFunctions" hash-for-method="testEditGoalsFunctions">testEditGoalsFunctions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.GoalsTypes" hash-for-method="testEditGoalsTypes">testEditGoalsTypes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.InfluenceStrength" hash-for-method="testEditInflncStrngth">testEditInflncStrngth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.InfluenceTypes" hash-for-method="testEditInflncType">testEditInflncType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.OrganizationPosition" hash-for-method="testEditOrgPosition">testEditOrgPosition</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.classification.ProfileRoleTest" hash-for-method="testEditProfileRole">testEditProfileRole</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.data.RejectionReason" hash-for-method="testEditRejectionReason">testEditRejectionReason</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.classification.TherapeuticAreaTest" hash-for-method="testEditTherapeuticArea">testEditTherapeuticArea</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.classification.ProfileRoleTest" hash-for-method="testMultipleProfileRolesDelete">testMultipleProfileRolesDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.classification.TherapeuticAreaTest" hash-for-method="testMultipleTherapeuticAreasDelete">testMultipleTherapeuticAreasDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.scripts.TemplateTest" hash-for-method="testTemplate">testTemplate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.classification.Brand1" hash-for-method="verifyBrand">verifyBrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.classification.Brand2" hash-for-method="verifyBrand">verifyBrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.classification.Brand1" hash-for-method="verifyBrandDelFromClassification">verifyBrandDelFromClassification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.classification.Brand2" hash-for-method="verifyBrandDelFromProfile">verifyBrandDelFromProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.classification.Brand1" hash-for-method="verifyBrandDelFromProfile">verifyBrandDelFromProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.classification.Brand2" hash-for-method="verifyBrndProfile">verifyBrndProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HeartBeat_Test_Suite" title="com.profiler.classification.Brand1" hash-for-method="verifyBrndProfile">verifyBrndProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-HeartBeat_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-HeartBeat_Test_Suite" class="panel HeartBeat_Test_Suite">
+          <div class="suite-HeartBeat_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.profiler.scripts.UserManager</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchUser">
+                  </a> <!-- testSearchUser -->
+                  <span class="method-name">testSearchUser</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type=&apos;text&apos; and @id=&apos;keyword&apos;] (tried for 40 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.profiler.utils.AppUtil.searchUserFromToolsPage(AppUtil.java:597)
+	at com.profiler.scripts.UserManager.testSearchUser(UserManager.java:72)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //input[@type=&apos;text&apos; and @id=&apos;keyword&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;NGD24116&apos;, ip: &apos;10.222.79.40&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_72&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 26 more
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeartBeat_Test_Suite-class-failed -->
+          <div class="suite-HeartBeat_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.profiler.classification.Brand2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBrandDelFromClassification">
+                  </a> <!-- verifyBrandDelFromClassification -->
+                  <span class="method-name">verifyBrandDelFromClassification</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@id=&apos;classificationDiv&apos;]/table/tbody/tr/td[2]/following::div[@id=&apos;highlightkeyword&apos;]/following::img)[1] because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//*[@id=&apos;classificationDiv&apos;]/table/tbody/tr/td[2]/following::div[@id=&apos;highlightkeyword&apos;]/following::img)[1]&apos; is not a valid XPath expression.
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;NGD24116&apos;, ip: &apos;10.222.79.40&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_72&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SUVI_W~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 46f59107f046404d49486c49fe4e1416
+*** Element info: {Using=xpath, value=//*[@id=&apos;classificationDiv&apos;]/table/tbody/tr/td[2]/following::div[@id=&apos;highlightkeyword&apos;]/following::img)[1]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at com.profiler.classification.Brand2.verifyBrandDelFromClassification(Brand2.java:289)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeartBeat_Test_Suite-class-failed -->
+          <div class="suite-HeartBeat_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.profiler.scripts.RoleManager</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateRole">
+                  </a> <!-- testCreateRole -->
+                  <span class="method-name">testCreateRole</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[text()=&apos;User Management&apos;] (tried for 200 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.profiler.utils.RoleManagerUtil.assignActionsToRole(RoleManagerUtil.java:115)
+	at com.profiler.utils.RoleManagerUtil.createRole(RoleManagerUtil.java:42)
+	at com.profiler.scripts.RoleManager.testCreateRole(RoleManager.java:32)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //a[text()=&apos;User Management&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;NGD24116&apos;, ip: &apos;10.222.79.40&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_72&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 27 more
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateUserGroup">
+                  </a> <!-- testCreateUserGroup -->
+                  <span class="method-name">testCreateUserGroup</span>
+                  <div class="stack-trace">java.lang.AssertionError: UserGroup Creation failed
+	at com.profiler.scripts.RoleManager.testCreateUserGroup(RoleManager.java:98)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteRole">
+                  </a> <!-- testDeleteRole -->
+                  <span class="method-name">testDeleteRole</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[text()=&apos;User Management&apos;] (tried for 200 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.profiler.utils.RoleManagerUtil.assignActionsToRole(RoleManagerUtil.java:115)
+	at com.profiler.utils.RoleManagerUtil.createRole(RoleManagerUtil.java:42)
+	at com.profiler.scripts.RoleManager.testDeleteRole(RoleManager.java:60)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //a[text()=&apos;User Management&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;NGD24116&apos;, ip: &apos;10.222.79.40&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_72&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 27 more
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeartBeat_Test_Suite-class-failed -->
+          <div class="suite-HeartBeat_Test_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.profiler.scripts.UserManager</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUser">
+                  </a> <!-- testDeleteUser -->
+                  <span class="method-name">testDeleteUser</span>
+                  <div class="stack-trace">java.lang.Throwable: Method UserManager.testDeleteUser()[pri:0, instance:com.profiler.scripts.UserManager@47af7f3d] depends on not successfully finished methods
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEditUser">
+                  </a> <!-- testEditUser -->
+                  <span class="method-name">testEditUser</span>
+                  <div class="stack-trace">java.lang.Throwable: Method UserManager.testEditUser()[pri:0, instance:com.profiler.scripts.UserManager@47af7f3d] depends on not successfully finished methods
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeartBeat_Test_Suite-class-skipped -->
+          <div class="suite-HeartBeat_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.profiler.classification.Brand1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addBrand">
+                  </a> <!-- addBrand -->
+                  <span class="method-name">addBrand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteBrand">
+                  </a> <!-- deleteBrand -->
+                  <span class="method-name">deleteBrand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBrand">
+                  </a> <!-- verifyBrand -->
+                  <span class="method-name">verifyBrand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBrandDelFromClassification">
+                  </a> <!-- verifyBrandDelFromClassification -->
+                  <span class="method-name">verifyBrandDelFromClassification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBrandDelFromProfile">
+                  </a> <!-- verifyBrandDelFromProfile -->
+                  <span class="method-name">verifyBrandDelFromProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBrndProfile">
+                  </a> <!-- verifyBrndProfile -->
+                  <span class="method-name">verifyBrndProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeartBeat_Test_Suite-class-passed -->
+          <div class="suite-HeartBeat_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.profiler.contractmgt.ContractManagementTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddContractManagement">
+                  </a> <!-- AddContractManagement -->
+                  <span class="method-name">AddContractManagement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeartBeat_Test_Suite-class-passed -->
+          <div class="suite-HeartBeat_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.profiler.classification.Brand2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addBrand">
+                  </a> <!-- addBrand -->
+                  <span class="method-name">addBrand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteBrand">
+                  </a> <!-- deleteBrand -->
+                  <span class="method-name">deleteBrand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBrand">
+                  </a> <!-- verifyBrand -->
+                  <span class="method-name">verifyBrand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBrandDelFromProfile">
+                  </a> <!-- verifyBrandDelFromProfile -->
+                  <span class="method-name">verifyBrandDelFromProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBrndProfile">
+                  </a> <!-- verifyBrndProfile -->
+                  <span class="method-name">verifyBrndProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeartBeat_Test_Suite-class-passed -->
+          <div class="suite-HeartBeat_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.profiler.data.InfluenceTypes</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateInflncType">
+                  </a> <!-- testCreateInflncType -->
+                  <span class="method-name">testCreateInflncType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteInflncType">
+                  </a> <!-- testDeleteInflncType -->
+                  <span class="method-name">testDeleteInflncType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEditInflncType">
+                  </a> <!-- testEditInflncType -->
+                  <span class="method-name">testEditInflncType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeartBeat_Test_Suite-class-passed -->
+          <div class="suite-HeartBeat_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.profiler.data.Condition</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateCondition">
+                  </a> <!-- testCreateCondition -->
+                  <span class="method-name">testCreateCondition</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteCondition">
+                  </a> <!-- testDeleteCondition -->
+                  <span class="method-name">testDeleteCondition</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEditCondition">
+                  </a> <!-- testEditCondition -->
+                  <span class="method-name">testEditCondition</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeartBeat_Test_Suite-class-passed -->
+          <div class="suite-HeartBeat_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.profiler.data.GoalsFunctions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateGoalsFunctions">
+                  </a> <!-- testCreateGoalsFunctions -->
+                  <span class="method-name">testCreateGoalsFunctions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteGoalsFunctions">
+                  </a> <!-- testDeleteGoalsFunctions -->
+                  <span class="method-name">testDeleteGoalsFunctions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEditGoalsFunctions">
+                  </a> <!-- testEditGoalsFunctions -->
+                  <span class="method-name">testEditGoalsFunctions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeartBeat_Test_Suite-class-passed -->
+          <div class="suite-HeartBeat_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.profiler.data.RejectionReason</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateRejectionReason">
+                  </a> <!-- testCreateRejectionReason -->
+                  <span class="method-name">testCreateRejectionReason</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteRejectionReason">
+                  </a> <!-- testDeleteRejectionReason -->
+                  <span class="method-name">testDeleteRejectionReason</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEditRejectionReason">
+                  </a> <!-- testEditRejectionReason -->
+                  <span class="method-name">testEditRejectionReason</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeartBeat_Test_Suite-class-passed -->
+          <div class="suite-HeartBeat_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.profiler.data.GoalsTypes</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateGoalsTypes">
+                  </a> <!-- testCreateGoalsTypes -->
+                  <span class="method-name">testCreateGoalsTypes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteGoalsTypes">
+                  </a> <!-- testDeleteGoalsTypes -->
+                  <span class="method-name">testDeleteGoalsTypes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEditGoalsTypes">
+                  </a> <!-- testEditGoalsTypes -->
+                  <span class="method-name">testEditGoalsTypes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeartBeat_Test_Suite-class-passed -->
+          <div class="suite-HeartBeat_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.profiler.scripts.UserManager</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateUser">
+                  </a> <!-- testCreateUser -->
+                  <span class="method-name">testCreateUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeartBeat_Test_Suite-class-passed -->
+          <div class="suite-HeartBeat_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.profiler.data.CommitteeType</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateCommType">
+                  </a> <!-- testCreateCommType -->
+                  <span class="method-name">testCreateCommType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteCommType">
+                  </a> <!-- testDeleteCommType -->
+                  <span class="method-name">testDeleteCommType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEditCommType">
+                  </a> <!-- testEditCommType -->
+                  <span class="method-name">testEditCommType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeartBeat_Test_Suite-class-passed -->
+          <div class="suite-HeartBeat_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.profiler.contractmgt.TypePaymentThreshold</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddCountryPaymentThreshold">
+                  </a> <!-- AddCountryPaymentThreshold -->
+                  <span class="method-name">AddCountryPaymentThreshold</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeartBeat_Test_Suite-class-passed -->
+          <div class="suite-HeartBeat_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.profiler.scripts.TemplateTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCustomizeTemplate">
+                  </a> <!-- testCustomizeTemplate -->
+                  <span class="method-name">testCustomizeTemplate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTemplate">
+                  </a> <!-- testTemplate -->
+                  <span class="method-name">testTemplate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeartBeat_Test_Suite-class-passed -->
+          <div class="suite-HeartBeat_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.profiler.classification.TherapeuticAreaTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateTherapeuticArea">
+                  </a> <!-- testCreateTherapeuticArea -->
+                  <span class="method-name">testCreateTherapeuticArea</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteTherapeuticArea">
+                  </a> <!-- testDeleteTherapeuticArea -->
+                  <span class="method-name">testDeleteTherapeuticArea</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEditTherapeuticArea">
+                  </a> <!-- testEditTherapeuticArea -->
+                  <span class="method-name">testEditTherapeuticArea</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMultipleTherapeuticAreasDelete">
+                  </a> <!-- testMultipleTherapeuticAreasDelete -->
+                  <span class="method-name">testMultipleTherapeuticAreasDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeartBeat_Test_Suite-class-passed -->
+          <div class="suite-HeartBeat_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.profiler.data.ClinicalActivityType</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateClinicalActType">
+                  </a> <!-- testCreateClinicalActType -->
+                  <span class="method-name">testCreateClinicalActType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteClinicalActType">
+                  </a> <!-- testDeleteClinicalActType -->
+                  <span class="method-name">testDeleteClinicalActType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEditClinicalActType">
+                  </a> <!-- testEditClinicalActType -->
+                  <span class="method-name">testEditClinicalActType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeartBeat_Test_Suite-class-passed -->
+          <div class="suite-HeartBeat_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.profiler.contractmgt.CountryPaymentThreshold</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddCountryPaymentThreshold">
+                  </a> <!-- AddCountryPaymentThreshold -->
+                  <span class="method-name">AddCountryPaymentThreshold</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeartBeat_Test_Suite-class-passed -->
+          <div class="suite-HeartBeat_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.profiler.classification.ProfileRoleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateProfileRole">
+                  </a> <!-- testCreateProfileRole -->
+                  <span class="method-name">testCreateProfileRole</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteProfileRole">
+                  </a> <!-- testDeleteProfileRole -->
+                  <span class="method-name">testDeleteProfileRole</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEditProfileRole">
+                  </a> <!-- testEditProfileRole -->
+                  <span class="method-name">testEditProfileRole</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMultipleProfileRolesDelete">
+                  </a> <!-- testMultipleProfileRolesDelete -->
+                  <span class="method-name">testMultipleProfileRolesDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeartBeat_Test_Suite-class-passed -->
+          <div class="suite-HeartBeat_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.profiler.data.OrganizationPosition</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateOrgPosition">
+                  </a> <!-- testCreateOrgPosition -->
+                  <span class="method-name">testCreateOrgPosition</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteOrgPosition">
+                  </a> <!-- testDeleteOrgPosition -->
+                  <span class="method-name">testDeleteOrgPosition</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEditOrgPosition">
+                  </a> <!-- testEditOrgPosition -->
+                  <span class="method-name">testEditOrgPosition</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeartBeat_Test_Suite-class-passed -->
+          <div class="suite-HeartBeat_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.profiler.data.InfluenceStrength</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateInflncStrngth">
+                  </a> <!-- testCreateInflncStrngth -->
+                  <span class="method-name">testCreateInflncStrngth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteInflncStrngth">
+                  </a> <!-- testDeleteInflncStrngth -->
+                  <span class="method-name">testDeleteInflncStrngth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEditInflncStrngth">
+                  </a> <!-- testEditInflncStrngth -->
+                  <span class="method-name">testEditInflncStrngth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeartBeat_Test_Suite-class-passed -->
+        </div> <!-- panel HeartBeat_Test_Suite -->
+        <div panel-name="test-xml-HeartBeat_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\00 SELENIUM NEW\HeartBeat-MTP-04\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;HeartBeat Test Suite&quot;&gt;
+  &lt;test name=&quot;Users-RolesTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.profiler.scripts.UserManager&quot;/&gt;
+      &lt;class name=&quot;com.profiler.scripts.RoleManager&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Users-RolesTest --&gt;
+  &lt;test name=&quot;ContractMgtTest-P&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.profiler.contractmgt.ContractManagementTest&quot;/&gt;
+      &lt;class name=&quot;com.profiler.contractmgt.CountryPaymentThreshold&quot;/&gt;
+      &lt;class name=&quot;com.profiler.contractmgt.TypePaymentThreshold&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ContractMgtTest-P --&gt;
+  &lt;test name=&quot;TemplateTest-V&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.profiler.scripts.TemplateTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TemplateTest-V --&gt;
+  &lt;test name=&quot;ClassificationTest-H&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.profiler.classification.Brand1&quot;/&gt;
+      &lt;class name=&quot;com.profiler.classification.Brand2&quot;/&gt;
+      &lt;class name=&quot;com.profiler.classification.ProfileRoleTest&quot;/&gt;
+      &lt;class name=&quot;com.profiler.classification.TherapeuticAreaTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ClassificationTest-H --&gt;
+  &lt;test name=&quot;DataTest-R&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.profiler.data.RejectionReason&quot;/&gt;
+      &lt;class name=&quot;com.profiler.data.ClinicalActivityType&quot;/&gt;
+      &lt;class name=&quot;com.profiler.data.CommitteeType&quot;/&gt;
+      &lt;class name=&quot;com.profiler.data.Condition&quot;/&gt;
+      &lt;class name=&quot;com.profiler.data.GoalsFunctions&quot;/&gt;
+      &lt;class name=&quot;com.profiler.data.GoalsTypes&quot;/&gt;
+      &lt;class name=&quot;com.profiler.data.InfluenceStrength&quot;/&gt;
+      &lt;class name=&quot;com.profiler.data.InfluenceTypes&quot;/&gt;
+      &lt;class name=&quot;com.profiler.data.OrganizationPosition&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DataTest-R --&gt;
+  &lt;test name=&quot;Users-RolesTest(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.profiler.classification.Brand1&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;endReport&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.classification.Brand1 --&gt;
+      &lt;class name=&quot;com.profiler.contractmgt.ContractManagementTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;endReport&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.contractmgt.ContractManagementTest --&gt;
+      &lt;class name=&quot;com.profiler.classification.Brand2&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.classification.Brand2 --&gt;
+      &lt;class name=&quot;com.profiler.data.InfluenceTypes&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.data.InfluenceTypes --&gt;
+      &lt;class name=&quot;com.profiler.data.Condition&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.data.Condition --&gt;
+      &lt;class name=&quot;com.profiler.data.GoalsFunctions&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.data.GoalsFunctions --&gt;
+      &lt;class name=&quot;com.profiler.data.RejectionReason&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setReport&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;close&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;endReport&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.data.RejectionReason --&gt;
+      &lt;class name=&quot;com.profiler.data.GoalsTypes&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.data.GoalsTypes --&gt;
+      &lt;class name=&quot;com.profiler.scripts.RoleManager&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;testDeleteRole&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;testCreateRole&quot;/&gt;
+          &lt;include name=&quot;testCreateUserGroup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.scripts.RoleManager --&gt;
+      &lt;class name=&quot;com.profiler.scripts.UserManager&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testSearchUser&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;testDeleteUser&quot;/&gt;
+          &lt;include name=&quot;testCreateUser&quot;/&gt;
+          &lt;include name=&quot;testEditUser&quot;/&gt;
+          &lt;include name=&quot;endReport&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.scripts.UserManager --&gt;
+      &lt;class name=&quot;com.profiler.data.CommitteeType&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.data.CommitteeType --&gt;
+      &lt;class name=&quot;com.profiler.scripts.TemplateTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;endReport&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.scripts.TemplateTest --&gt;
+      &lt;class name=&quot;com.profiler.contractmgt.TypePaymentThreshold&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.contractmgt.TypePaymentThreshold --&gt;
+      &lt;class name=&quot;com.profiler.classification.TherapeuticAreaTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.classification.TherapeuticAreaTest --&gt;
+      &lt;class name=&quot;com.profiler.data.ClinicalActivityType&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.data.ClinicalActivityType --&gt;
+      &lt;class name=&quot;com.profiler.contractmgt.CountryPaymentThreshold&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.contractmgt.CountryPaymentThreshold --&gt;
+      &lt;class name=&quot;com.profiler.classification.ProfileRoleTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.classification.ProfileRoleTest --&gt;
+      &lt;class name=&quot;com.profiler.data.OrganizationPosition&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.data.OrganizationPosition --&gt;
+      &lt;class name=&quot;com.profiler.data.InfluenceStrength&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.data.InfluenceStrength --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Users-RolesTest(failed) --&gt;
+  &lt;test name=&quot;ClassificationTest-H(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.profiler.classification.Brand1&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;endReport&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.classification.Brand1 --&gt;
+      &lt;class name=&quot;com.profiler.contractmgt.ContractManagementTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;endReport&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.contractmgt.ContractManagementTest --&gt;
+      &lt;class name=&quot;com.profiler.classification.Brand2&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;verifyBrandDelFromClassification&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.classification.Brand2 --&gt;
+      &lt;class name=&quot;com.profiler.data.InfluenceTypes&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.data.InfluenceTypes --&gt;
+      &lt;class name=&quot;com.profiler.data.Condition&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.data.Condition --&gt;
+      &lt;class name=&quot;com.profiler.data.GoalsFunctions&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.data.GoalsFunctions --&gt;
+      &lt;class name=&quot;com.profiler.data.RejectionReason&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setReport&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;close&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;endReport&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.data.RejectionReason --&gt;
+      &lt;class name=&quot;com.profiler.data.GoalsTypes&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.data.GoalsTypes --&gt;
+      &lt;class name=&quot;com.profiler.scripts.RoleManager&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.scripts.RoleManager --&gt;
+      &lt;class name=&quot;com.profiler.scripts.UserManager&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;endReport&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.scripts.UserManager --&gt;
+      &lt;class name=&quot;com.profiler.data.CommitteeType&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.data.CommitteeType --&gt;
+      &lt;class name=&quot;com.profiler.scripts.TemplateTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;endReport&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.scripts.TemplateTest --&gt;
+      &lt;class name=&quot;com.profiler.contractmgt.TypePaymentThreshold&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.contractmgt.TypePaymentThreshold --&gt;
+      &lt;class name=&quot;com.profiler.classification.TherapeuticAreaTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.classification.TherapeuticAreaTest --&gt;
+      &lt;class name=&quot;com.profiler.data.ClinicalActivityType&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.data.ClinicalActivityType --&gt;
+      &lt;class name=&quot;com.profiler.contractmgt.CountryPaymentThreshold&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.contractmgt.CountryPaymentThreshold --&gt;
+      &lt;class name=&quot;com.profiler.classification.ProfileRoleTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.classification.ProfileRoleTest --&gt;
+      &lt;class name=&quot;com.profiler.data.OrganizationPosition&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.data.OrganizationPosition --&gt;
+      &lt;class name=&quot;com.profiler.data.InfluenceStrength&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;close_browser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.profiler.data.InfluenceStrength --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ClassificationTest-H(failed) --&gt;
+&lt;/suite&gt; &lt;!-- HeartBeat Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-HeartBeat_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for HeartBeat Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Users-RolesTest (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">ContractMgtTest-P (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">TemplateTest-V (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ClassificationTest-H (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">DataTest-R (9 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Users-RolesTest(failed) (19 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">ClassificationTest-H(failed) (19 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-HeartBeat_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for HeartBeat Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-HeartBeat_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for HeartBeat Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_HeartBeat_Test_Suite');
+function tableData_HeartBeat_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(59);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCustomizeTemplate')
+data.setCell(0, 2, 'com.profiler.scripts.TemplateTest')
+data.setCell(0, 3, 793860);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCreateRole')
+data.setCell(1, 2, 'com.profiler.scripts.RoleManager')
+data.setCell(1, 3, 297520);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCreateUserGroup')
+data.setCell(2, 2, 'com.profiler.scripts.RoleManager')
+data.setCell(2, 3, 265935);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testDeleteRole')
+data.setCell(3, 2, 'com.profiler.scripts.RoleManager')
+data.setCell(3, 3, 258950);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCreateUser')
+data.setCell(4, 2, 'com.profiler.scripts.UserManager')
+data.setCell(4, 3, 201861);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testTemplate')
+data.setCell(5, 2, 'com.profiler.scripts.TemplateTest')
+data.setCell(5, 3, 177347);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'AddCountryPaymentThreshold')
+data.setCell(6, 2, 'com.profiler.contractmgt.CountryPaymentThreshold')
+data.setCell(6, 3, 170500);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'AddContractManagement')
+data.setCell(7, 2, 'com.profiler.contractmgt.ContractManagementTest')
+data.setCell(7, 3, 164048);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'AddCountryPaymentThreshold')
+data.setCell(8, 2, 'com.profiler.contractmgt.TypePaymentThreshold')
+data.setCell(8, 3, 138963);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testDeleteOrgPosition')
+data.setCell(9, 2, 'com.profiler.data.OrganizationPosition')
+data.setCell(9, 3, 111552);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testSearchUser')
+data.setCell(10, 2, 'com.profiler.scripts.UserManager')
+data.setCell(10, 3, 109438);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testDeleteGoalsTypes')
+data.setCell(11, 2, 'com.profiler.data.GoalsTypes')
+data.setCell(11, 3, 106221);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testDeleteInflncStrngth')
+data.setCell(12, 2, 'com.profiler.data.InfluenceStrength')
+data.setCell(12, 3, 105431);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testDeleteRejectionReason')
+data.setCell(13, 2, 'com.profiler.data.RejectionReason')
+data.setCell(13, 3, 102994);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testDeleteInflncType')
+data.setCell(14, 2, 'com.profiler.data.InfluenceTypes')
+data.setCell(14, 3, 101264);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testDeleteGoalsFunctions')
+data.setCell(15, 2, 'com.profiler.data.GoalsFunctions')
+data.setCell(15, 3, 100224);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testEditInflncStrngth')
+data.setCell(16, 2, 'com.profiler.data.InfluenceStrength')
+data.setCell(16, 3, 97806);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testEditGoalsTypes')
+data.setCell(17, 2, 'com.profiler.data.GoalsTypes')
+data.setCell(17, 3, 97201);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testEditRejectionReason')
+data.setCell(18, 2, 'com.profiler.data.RejectionReason')
+data.setCell(18, 3, 93694);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testEditGoalsFunctions')
+data.setCell(19, 2, 'com.profiler.data.GoalsFunctions')
+data.setCell(19, 3, 92607);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testEditInflncType')
+data.setCell(20, 2, 'com.profiler.data.InfluenceTypes')
+data.setCell(20, 3, 92567);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testCreateInflncType')
+data.setCell(21, 2, 'com.profiler.data.InfluenceTypes')
+data.setCell(21, 3, 85256);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyBrand')
+data.setCell(22, 2, 'com.profiler.classification.Brand2')
+data.setCell(22, 3, 83069);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testCreateGoalsTypes')
+data.setCell(23, 2, 'com.profiler.data.GoalsTypes')
+data.setCell(23, 3, 76591);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyBrandDelFromProfile')
+data.setCell(24, 2, 'com.profiler.classification.Brand2')
+data.setCell(24, 3, 71735);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testCreateInflncStrngth')
+data.setCell(25, 2, 'com.profiler.data.InfluenceStrength')
+data.setCell(25, 3, 71558);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testCreateGoalsFunctions')
+data.setCell(26, 2, 'com.profiler.data.GoalsFunctions')
+data.setCell(26, 3, 69006);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'addBrand')
+data.setCell(27, 2, 'com.profiler.classification.Brand1')
+data.setCell(27, 3, 66278);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testCreateRejectionReason')
+data.setCell(28, 2, 'com.profiler.data.RejectionReason')
+data.setCell(28, 3, 65417);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testDeleteCondition')
+data.setCell(29, 2, 'com.profiler.data.Condition')
+data.setCell(29, 3, 61050);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testDeleteClinicalActType')
+data.setCell(30, 2, 'com.profiler.data.ClinicalActivityType')
+data.setCell(30, 3, 60980);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verifyBrandDelFromProfile')
+data.setCell(31, 2, 'com.profiler.classification.Brand1')
+data.setCell(31, 3, 60372);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testDeleteCommType')
+data.setCell(32, 2, 'com.profiler.data.CommitteeType')
+data.setCell(32, 3, 59695);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testCreateProfileRole')
+data.setCell(33, 2, 'com.profiler.classification.ProfileRoleTest')
+data.setCell(33, 3, 57168);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'addBrand')
+data.setCell(34, 2, 'com.profiler.classification.Brand2')
+data.setCell(34, 3, 55219);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testCreateClinicalActType')
+data.setCell(35, 2, 'com.profiler.data.ClinicalActivityType')
+data.setCell(35, 3, 54039);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testEditOrgPosition')
+data.setCell(36, 2, 'com.profiler.data.OrganizationPosition')
+data.setCell(36, 3, 50155);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testDeleteTherapeuticArea')
+data.setCell(37, 2, 'com.profiler.classification.TherapeuticAreaTest')
+data.setCell(37, 3, 49338);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testCreateTherapeuticArea')
+data.setCell(38, 2, 'com.profiler.classification.TherapeuticAreaTest')
+data.setCell(38, 3, 48301);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testDeleteProfileRole')
+data.setCell(39, 2, 'com.profiler.classification.ProfileRoleTest')
+data.setCell(39, 3, 47282);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testCreateCondition')
+data.setCell(40, 2, 'com.profiler.data.Condition')
+data.setCell(40, 3, 46247);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testCreateCommType')
+data.setCell(41, 2, 'com.profiler.data.CommitteeType')
+data.setCell(41, 3, 45127);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'verifyBrandDelFromClassification')
+data.setCell(42, 2, 'com.profiler.classification.Brand1')
+data.setCell(42, 3, 44431);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testCreateOrgPosition')
+data.setCell(43, 2, 'com.profiler.data.OrganizationPosition')
+data.setCell(43, 3, 42326);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'deleteBrand')
+data.setCell(44, 2, 'com.profiler.classification.Brand1')
+data.setCell(44, 3, 38511);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testEditClinicalActType')
+data.setCell(45, 2, 'com.profiler.data.ClinicalActivityType')
+data.setCell(45, 3, 38250);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'testEditCondition')
+data.setCell(46, 2, 'com.profiler.data.Condition')
+data.setCell(46, 3, 38127);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'testEditCommType')
+data.setCell(47, 2, 'com.profiler.data.CommitteeType')
+data.setCell(47, 3, 37982);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'verifyBrndProfile')
+data.setCell(48, 2, 'com.profiler.classification.Brand1')
+data.setCell(48, 3, 35520);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'verifyBrand')
+data.setCell(49, 2, 'com.profiler.classification.Brand1')
+data.setCell(49, 3, 33994);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'verifyBrndProfile')
+data.setCell(50, 2, 'com.profiler.classification.Brand2')
+data.setCell(50, 3, 32370);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'verifyBrandDelFromClassification')
+data.setCell(51, 2, 'com.profiler.classification.Brand2')
+data.setCell(51, 3, 29721);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'deleteBrand')
+data.setCell(52, 2, 'com.profiler.classification.Brand2')
+data.setCell(52, 3, 28871);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'testEditProfileRole')
+data.setCell(53, 2, 'com.profiler.classification.ProfileRoleTest')
+data.setCell(53, 3, 53);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'testEditTherapeuticArea')
+data.setCell(54, 2, 'com.profiler.classification.TherapeuticAreaTest')
+data.setCell(54, 3, 28);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'testMultipleTherapeuticAreasDelete')
+data.setCell(55, 2, 'com.profiler.classification.TherapeuticAreaTest')
+data.setCell(55, 3, 28);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'testMultipleProfileRolesDelete')
+data.setCell(56, 2, 'com.profiler.classification.ProfileRoleTest')
+data.setCell(56, 3, 26);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'testEditUser')
+data.setCell(57, 2, 'com.profiler.scripts.UserManager')
+data.setCell(57, 3, 0);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'testDeleteUser')
+data.setCell(58, 2, 'com.profiler.scripts.UserManager')
+data.setCell(58, 3, 0);
+window.suiteTableData['HeartBeat_Test_Suite']= { tableData: data, tableDiv: 'times-div-HeartBeat_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 hours</span>
+              <div id="times-div-HeartBeat_Test_Suite">
+              </div> <!-- times-div-HeartBeat_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-HeartBeat_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for HeartBeat Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-HeartBeat_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">42 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.profiler.classification.Brand2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setReport</span>
+                <br/>
+                <span class="ignored-method-name">close</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.profiler.data.InfluenceTypes</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setReport</span>
+                <br/>
+                <span class="ignored-method-name">close</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.profiler.data.Condition</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setReport</span>
+                <br/>
+                <span class="ignored-method-name">close</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.profiler.data.GoalsFunctions</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setReport</span>
+                <br/>
+                <span class="ignored-method-name">close</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.profiler.data.GoalsTypes</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setReport</span>
+                <br/>
+                <span class="ignored-method-name">close</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.profiler.scripts.RoleManager</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setReport</span>
+                <br/>
+                <span class="ignored-method-name">close</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.profiler.data.CommitteeType</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setReport</span>
+                <br/>
+                <span class="ignored-method-name">close</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.profiler.contractmgt.TypePaymentThreshold</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setReport</span>
+                <br/>
+                <span class="ignored-method-name">close</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.profiler.classification.TherapeuticAreaTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setReport</span>
+                <br/>
+                <span class="ignored-method-name">close</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.profiler.data.ClinicalActivityType</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setReport</span>
+                <br/>
+                <span class="ignored-method-name">close</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.profiler.contractmgt.CountryPaymentThreshold</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setReport</span>
+                <br/>
+                <span class="ignored-method-name">close</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.profiler.classification.ProfileRoleTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setReport</span>
+                <br/>
+                <span class="ignored-method-name">close</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.profiler.data.OrganizationPosition</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setReport</span>
+                <br/>
+                <span class="ignored-method-name">close</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.profiler.data.InfluenceStrength</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setReport</span>
+                <br/>
+                <span class="ignored-method-name">close</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-HeartBeat_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.profiler.data.RejectionReason</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.profiler.scripts.UserManager</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">79 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCreateUser</span>
+                <span class="method-start">3078 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCreateUser status=SUCCESS method=UserManager.testCreateUser()[pri:0, instance:c...)</span>
+                <span class="method-start">204939 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearchUser</span>
+                <span class="method-start">204939 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testSearchUser status=FAILURE method=UserManager.testSearchUser()[pri:0, instance:c...)</span>
+                <span class="method-start">314660 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">close_browser</span>
+                <span class="method-start">316447 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.profiler.scripts.RoleManager</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">321323 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCreateRole</span>
+                <span class="method-start">327696 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCreateRole status=FAILURE method=RoleManager.testCreateRole()[pri:0, instance:c...)</span>
+                <span class="method-start">625216 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCreateUserGroup</span>
+                <span class="method-start">625825 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCreateUserGroup status=FAILURE method=RoleManager.testCreateUserGroup()[pri:0, ...)</span>
+                <span class="method-start">891760 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testDeleteRole</span>
+                <span class="method-start">892117 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testDeleteRole status=FAILURE method=RoleManager.testDeleteRole()[pri:0, instance:c...)</span>
+                <span class="method-start">1151083 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">close_browser</span>
+                <span class="method-start">1151414 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.profiler.scripts.UserManager</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">1156347 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.profiler.contractmgt.ContractManagementTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">1156926 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">AddContractManagement</span>
+                <span class="method-start">1160293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close_browser</span>
+                <span class="method-start">1324341 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=AddContractManagement status=SUCCESS method=ContractManagementTest.AddContractManag...)</span>
+                <span class="method-start">1324341 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.profiler.contractmgt.CountryPaymentThreshold</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">1329135 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">AddCountryPaymentThreshold</span>
+                <span class="method-start">1331399 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close_browser</span>
+                <span class="method-start">1501899 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=AddCountryPaymentThreshold status=SUCCESS method=CountryPaymentThreshold.AddCountry...)</span>
+                <span class="method-start">1501899 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.profiler.contractmgt.TypePaymentThreshold</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">1506796 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">AddCountryPaymentThreshold</span>
+                <span class="method-start">1511055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close_browser</span>
+                <span class="method-start">1650018 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=AddCountryPaymentThreshold status=SUCCESS method=TypePaymentThreshold.AddCountryPay...)</span>
+                <span class="method-start">1650018 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.profiler.contractmgt.ContractManagementTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">1654814 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.profiler.scripts.TemplateTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">1654877 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCustomizeTemplate</span>
+                <span class="method-start">1656787 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCustomizeTemplate status=SUCCESS method=TemplateTest.testCustomizeTemplate()[pr...)</span>
+                <span class="method-start">2450647 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testTemplate</span>
+                <span class="method-start">2450647 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close_browser</span>
+                <span class="method-start">2627994 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testTemplate status=SUCCESS method=TemplateTest.testTemplate()[pri:0, instance:com....)</span>
+                <span class="method-start">2627994 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">2632888 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.profiler.classification.Brand1</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">2633232 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addBrand</span>
+                <span class="method-start">2635864 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=addBrand status=SUCCESS method=Brand1.addBrand()[pri:1, instance:com.profiler.class...)</span>
+                <span class="method-start">2702142 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyBrand</span>
+                <span class="method-start">2702142 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyBrand status=SUCCESS method=Brand1.verifyBrand()[pri:2, instance:com.profiler...)</span>
+                <span class="method-start">2736137 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyBrndProfile</span>
+                <span class="method-start">2736137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteBrand</span>
+                <span class="method-start">2771659 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyBrndProfile status=SUCCESS method=Brand1.verifyBrndProfile()[pri:3, instance:...)</span>
+                <span class="method-start">2771659 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=deleteBrand status=SUCCESS method=Brand1.deleteBrand()[pri:4, instance:com.profiler...)</span>
+                <span class="method-start">2810172 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyBrandDelFromClassification</span>
+                <span class="method-start">2810172 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyBrandDelFromClassification status=SUCCESS method=Brand1.verifyBrandDelFromCla...)</span>
+                <span class="method-start">2854603 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyBrandDelFromProfile</span>
+                <span class="method-start">2854604 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close_browser</span>
+                <span class="method-start">2914976 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyBrandDelFromProfile status=SUCCESS method=Brand1.verifyBrandDelFromProfile()[...)</span>
+                <span class="method-start">2914976 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.profiler.classification.Brand2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">2919807 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addBrand</span>
+                <span class="method-start">2921209 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=addBrand status=SUCCESS method=Brand2.addBrand()[pri:1, instance:com.profiler.class...)</span>
+                <span class="method-start">2976428 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyBrand</span>
+                <span class="method-start">2976428 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyBrand status=SUCCESS method=Brand2.verifyBrand()[pri:2, instance:com.profiler...)</span>
+                <span class="method-start">3059498 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyBrndProfile</span>
+                <span class="method-start">3059499 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyBrndProfile status=SUCCESS method=Brand2.verifyBrndProfile()[pri:3, instance:...)</span>
+                <span class="method-start">3091869 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">deleteBrand</span>
+                <span class="method-start">3091871 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=deleteBrand status=SUCCESS method=Brand2.deleteBrand()[pri:4, instance:com.profiler...)</span>
+                <span class="method-start">3120743 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyBrandDelFromClassification</span>
+                <span class="method-start">3120743 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyBrandDelFromClassification status=FAILURE method=Brand2.verifyBrandDelFromCla...)</span>
+                <span class="method-start">3150464 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyBrandDelFromProfile</span>
+                <span class="method-start">3151087 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close_browser</span>
+                <span class="method-start">3222822 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyBrandDelFromProfile status=SUCCESS method=Brand2.verifyBrandDelFromProfile()[...)</span>
+                <span class="method-start">3222822 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.profiler.classification.ProfileRoleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">3227621 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCreateProfileRole</span>
+                <span class="method-start">3229597 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCreateProfileRole status=SUCCESS method=ProfileRoleTest.testCreateProfileRole()...)</span>
+                <span class="method-start">3286765 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testDeleteProfileRole</span>
+                <span class="method-start">3286765 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testDeleteProfileRole status=SUCCESS method=ProfileRoleTest.testDeleteProfileRole()...)</span>
+                <span class="method-start">3334047 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testEditProfileRole</span>
+                <span class="method-start">3334048 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testEditProfileRole status=SUCCESS method=ProfileRoleTest.testEditProfileRole()[pri...)</span>
+                <span class="method-start">3334102 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testMultipleProfileRolesDelete</span>
+                <span class="method-start">3334102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close_browser</span>
+                <span class="method-start">3334128 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testMultipleProfileRolesDelete status=SUCCESS method=ProfileRoleTest.testMultiplePr...)</span>
+                <span class="method-start">3334128 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.profiler.classification.TherapeuticAreaTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">3338892 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCreateTherapeuticArea</span>
+                <span class="method-start">3340136 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCreateTherapeuticArea status=SUCCESS method=TherapeuticAreaTest.testCreateThera...)</span>
+                <span class="method-start">3388437 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testDeleteTherapeuticArea</span>
+                <span class="method-start">3388437 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testDeleteTherapeuticArea status=SUCCESS method=TherapeuticAreaTest.testDeleteThera...)</span>
+                <span class="method-start">3437776 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testEditTherapeuticArea</span>
+                <span class="method-start">3437776 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testEditTherapeuticArea status=SUCCESS method=TherapeuticAreaTest.testEditTherapeut...)</span>
+                <span class="method-start">3437804 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testMultipleTherapeuticAreasDelete</span>
+                <span class="method-start">3437804 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close_browser</span>
+                <span class="method-start">3437832 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testMultipleTherapeuticAreasDelete status=SUCCESS method=TherapeuticAreaTest.testMu...)</span>
+                <span class="method-start">3437832 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.profiler.classification.Brand1</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">3442606 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.profiler.data.RejectionReason</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">3442669 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCreateRejectionReason</span>
+                <span class="method-start">3444730 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCreateRejectionReason status=SUCCESS method=RejectionReason.testCreateRejection...)</span>
+                <span class="method-start">3510147 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testDeleteRejectionReason</span>
+                <span class="method-start">3510147 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testDeleteRejectionReason status=SUCCESS method=RejectionReason.testDeleteRejection...)</span>
+                <span class="method-start">3613141 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testEditRejectionReason</span>
+                <span class="method-start">3613141 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close_browser</span>
+                <span class="method-start">3706835 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testEditRejectionReason status=SUCCESS method=RejectionReason.testEditRejectionReas...)</span>
+                <span class="method-start">3706835 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.profiler.data.ClinicalActivityType</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">3711642 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCreateClinicalActType</span>
+                <span class="method-start">3712873 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCreateClinicalActType status=SUCCESS method=ClinicalActivityType.testCreateClin...)</span>
+                <span class="method-start">3766912 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testDeleteClinicalActType</span>
+                <span class="method-start">3766912 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testDeleteClinicalActType status=SUCCESS method=ClinicalActivityType.testDeleteClin...)</span>
+                <span class="method-start">3827892 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testEditClinicalActType</span>
+                <span class="method-start">3827892 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close_browser</span>
+                <span class="method-start">3866142 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testEditClinicalActType status=SUCCESS method=ClinicalActivityType.testEditClinical...)</span>
+                <span class="method-start">3866142 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.profiler.data.CommitteeType</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">3870909 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCreateCommType</span>
+                <span class="method-start">3872644 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCreateCommType status=SUCCESS method=CommitteeType.testCreateCommType()[pri:0, ...)</span>
+                <span class="method-start">3917771 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testDeleteCommType</span>
+                <span class="method-start">3917771 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testDeleteCommType status=SUCCESS method=CommitteeType.testDeleteCommType()[pri:0, ...)</span>
+                <span class="method-start">3977466 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testEditCommType</span>
+                <span class="method-start">3977466 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close_browser</span>
+                <span class="method-start">4015448 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testEditCommType status=SUCCESS method=CommitteeType.testEditCommType()[pri:0, inst...)</span>
+                <span class="method-start">4015448 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.profiler.data.Condition</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">4020249 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCreateCondition</span>
+                <span class="method-start">4022078 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCreateCondition status=SUCCESS method=Condition.testCreateCondition()[pri:0, in...)</span>
+                <span class="method-start">4068325 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testDeleteCondition</span>
+                <span class="method-start">4068325 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testDeleteCondition status=SUCCESS method=Condition.testDeleteCondition()[pri:0, in...)</span>
+                <span class="method-start">4129375 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testEditCondition</span>
+                <span class="method-start">4129375 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close_browser</span>
+                <span class="method-start">4167502 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testEditCondition status=SUCCESS method=Condition.testEditCondition()[pri:0, instan...)</span>
+                <span class="method-start">4167502 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.profiler.data.GoalsFunctions</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">4172305 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCreateGoalsFunctions</span>
+                <span class="method-start">4175604 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCreateGoalsFunctions status=SUCCESS method=GoalsFunctions.testCreateGoalsFuncti...)</span>
+                <span class="method-start">4244610 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testDeleteGoalsFunctions</span>
+                <span class="method-start">4244610 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testDeleteGoalsFunctions status=SUCCESS method=GoalsFunctions.testDeleteGoalsFuncti...)</span>
+                <span class="method-start">4344834 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testEditGoalsFunctions</span>
+                <span class="method-start">4344834 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close_browser</span>
+                <span class="method-start">4437441 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testEditGoalsFunctions status=SUCCESS method=GoalsFunctions.testEditGoalsFunctions(...)</span>
+                <span class="method-start">4437441 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.profiler.data.GoalsTypes</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">4442242 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCreateGoalsTypes</span>
+                <span class="method-start">4446560 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCreateGoalsTypes status=SUCCESS method=GoalsTypes.testCreateGoalsTypes()[pri:0,...)</span>
+                <span class="method-start">4523151 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testDeleteGoalsTypes</span>
+                <span class="method-start">4523151 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testDeleteGoalsTypes status=SUCCESS method=GoalsTypes.testDeleteGoalsTypes()[pri:0,...)</span>
+                <span class="method-start">4629372 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testEditGoalsTypes</span>
+                <span class="method-start">4629372 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close_browser</span>
+                <span class="method-start">4726573 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testEditGoalsTypes status=SUCCESS method=GoalsTypes.testEditGoalsTypes()[pri:0, ins...)</span>
+                <span class="method-start">4726573 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.profiler.data.InfluenceStrength</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">4731373 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCreateInflncStrngth</span>
+                <span class="method-start">4734659 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCreateInflncStrngth status=SUCCESS method=InfluenceStrength.testCreateInflncStr...)</span>
+                <span class="method-start">4806217 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testDeleteInflncStrngth</span>
+                <span class="method-start">4806217 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testDeleteInflncStrngth status=SUCCESS method=InfluenceStrength.testDeleteInflncStr...)</span>
+                <span class="method-start">4911648 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testEditInflncStrngth</span>
+                <span class="method-start">4911648 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close_browser</span>
+                <span class="method-start">5009454 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testEditInflncStrngth status=SUCCESS method=InfluenceStrength.testEditInflncStrngth...)</span>
+                <span class="method-start">5009454 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.profiler.data.InfluenceTypes</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">5014253 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCreateInflncType</span>
+                <span class="method-start">5015562 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCreateInflncType status=SUCCESS method=InfluenceTypes.testCreateInflncType()[pr...)</span>
+                <span class="method-start">5100818 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testDeleteInflncType</span>
+                <span class="method-start">5100818 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testDeleteInflncType status=SUCCESS method=InfluenceTypes.testDeleteInflncType()[pr...)</span>
+                <span class="method-start">5202082 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testEditInflncType</span>
+                <span class="method-start">5202082 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close_browser</span>
+                <span class="method-start">5294649 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testEditInflncType status=SUCCESS method=InfluenceTypes.testEditInflncType()[pri:0,...)</span>
+                <span class="method-start">5294649 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.profiler.data.OrganizationPosition</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">5299432 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCreateOrgPosition</span>
+                <span class="method-start">5301541 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCreateOrgPosition status=SUCCESS method=OrganizationPosition.testCreateOrgPosit...)</span>
+                <span class="method-start">5343867 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testDeleteOrgPosition</span>
+                <span class="method-start">5343867 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testDeleteOrgPosition status=SUCCESS method=OrganizationPosition.testDeleteOrgPosit...)</span>
+                <span class="method-start">5455419 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testEditOrgPosition</span>
+                <span class="method-start">5455419 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close_browser</span>
+                <span class="method-start">5505574 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testEditOrgPosition status=SUCCESS method=OrganizationPosition.testEditOrgPosition(...)</span>
+                <span class="method-start">5505574 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.profiler.data.RejectionReason</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">5510436 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">close</span>
+                <span class="method-start">5510546 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

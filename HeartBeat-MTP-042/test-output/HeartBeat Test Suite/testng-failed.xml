@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HeartBeat Test Suite]">
+  <test name="Users-RolesTest">
+    <classes>
+      <class name="com.profiler.scripts.UserManager"/>
+      <class name="com.profiler.scripts.RoleManager"/>
+    </classes>
+  </test> <!-- Users-RolesTest -->
+  <test name="ContractMgtTest-P">
+    <classes>
+      <class name="com.profiler.contractmgt.ContractManagementTest"/>
+      <class name="com.profiler.contractmgt.CountryPaymentThreshold"/>
+      <class name="com.profiler.contractmgt.TypePaymentThreshold"/>
+    </classes>
+  </test> <!-- ContractMgtTest-P -->
+  <test name="TemplateTest-V">
+    <classes>
+      <class name="com.profiler.scripts.TemplateTest"/>
+    </classes>
+  </test> <!-- TemplateTest-V -->
+  <test name="ClassificationTest-H">
+    <classes>
+      <class name="com.profiler.classification.Brand1"/>
+      <class name="com.profiler.classification.Brand2"/>
+      <class name="com.profiler.classification.ProfileRoleTest"/>
+      <class name="com.profiler.classification.TherapeuticAreaTest"/>
+    </classes>
+  </test> <!-- ClassificationTest-H -->
+  <test name="DataTest-R">
+    <classes>
+      <class name="com.profiler.data.RejectionReason"/>
+      <class name="com.profiler.data.ClinicalActivityType"/>
+      <class name="com.profiler.data.CommitteeType"/>
+      <class name="com.profiler.data.Condition"/>
+      <class name="com.profiler.data.GoalsFunctions"/>
+      <class name="com.profiler.data.GoalsTypes"/>
+      <class name="com.profiler.data.InfluenceStrength"/>
+      <class name="com.profiler.data.InfluenceTypes"/>
+      <class name="com.profiler.data.OrganizationPosition"/>
+    </classes>
+  </test> <!-- DataTest-R -->
+  <test name="Users-RolesTest(failed)">
+    <classes>
+      <class name="com.profiler.classification.Brand1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="endReport"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.classification.Brand1 -->
+      <class name="com.profiler.contractmgt.ContractManagementTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="endReport"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.contractmgt.ContractManagementTest -->
+      <class name="com.profiler.classification.Brand2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.classification.Brand2 -->
+      <class name="com.profiler.data.InfluenceTypes">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.data.InfluenceTypes -->
+      <class name="com.profiler.data.Condition">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.data.Condition -->
+      <class name="com.profiler.data.GoalsFunctions">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.data.GoalsFunctions -->
+      <class name="com.profiler.data.RejectionReason">
+        <methods>
+          <include name="setReport"/>
+          <include name="tearDown"/>
+          <include name="close"/>
+          <include name="setup"/>
+          <include name="endReport"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.data.RejectionReason -->
+      <class name="com.profiler.data.GoalsTypes">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.data.GoalsTypes -->
+      <class name="com.profiler.scripts.RoleManager">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testDeleteRole"/>
+          <include name="setup"/>
+          <include name="testCreateRole"/>
+          <include name="testCreateUserGroup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.scripts.RoleManager -->
+      <class name="com.profiler.scripts.UserManager">
+        <methods>
+          <include name="testSearchUser"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="testDeleteUser"/>
+          <include name="testCreateUser"/>
+          <include name="testEditUser"/>
+          <include name="endReport"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.scripts.UserManager -->
+      <class name="com.profiler.data.CommitteeType">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.data.CommitteeType -->
+      <class name="com.profiler.scripts.TemplateTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="endReport"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.scripts.TemplateTest -->
+      <class name="com.profiler.contractmgt.TypePaymentThreshold">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.contractmgt.TypePaymentThreshold -->
+      <class name="com.profiler.classification.TherapeuticAreaTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.classification.TherapeuticAreaTest -->
+      <class name="com.profiler.data.ClinicalActivityType">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.data.ClinicalActivityType -->
+      <class name="com.profiler.contractmgt.CountryPaymentThreshold">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.contractmgt.CountryPaymentThreshold -->
+      <class name="com.profiler.classification.ProfileRoleTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.classification.ProfileRoleTest -->
+      <class name="com.profiler.data.OrganizationPosition">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.data.OrganizationPosition -->
+      <class name="com.profiler.data.InfluenceStrength">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.data.InfluenceStrength -->
+    </classes>
+  </test> <!-- Users-RolesTest(failed) -->
+  <test name="ClassificationTest-H(failed)">
+    <classes>
+      <class name="com.profiler.classification.Brand1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="endReport"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.classification.Brand1 -->
+      <class name="com.profiler.contractmgt.ContractManagementTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="endReport"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.contractmgt.ContractManagementTest -->
+      <class name="com.profiler.classification.Brand2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyBrandDelFromClassification"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.classification.Brand2 -->
+      <class name="com.profiler.data.InfluenceTypes">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.data.InfluenceTypes -->
+      <class name="com.profiler.data.Condition">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.data.Condition -->
+      <class name="com.profiler.data.GoalsFunctions">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.data.GoalsFunctions -->
+      <class name="com.profiler.data.RejectionReason">
+        <methods>
+          <include name="setReport"/>
+          <include name="tearDown"/>
+          <include name="close"/>
+          <include name="setup"/>
+          <include name="endReport"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.data.RejectionReason -->
+      <class name="com.profiler.data.GoalsTypes">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.data.GoalsTypes -->
+      <class name="com.profiler.scripts.RoleManager">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.scripts.RoleManager -->
+      <class name="com.profiler.scripts.UserManager">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="endReport"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.scripts.UserManager -->
+      <class name="com.profiler.data.CommitteeType">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.data.CommitteeType -->
+      <class name="com.profiler.scripts.TemplateTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="endReport"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.scripts.TemplateTest -->
+      <class name="com.profiler.contractmgt.TypePaymentThreshold">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.contractmgt.TypePaymentThreshold -->
+      <class name="com.profiler.classification.TherapeuticAreaTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.classification.TherapeuticAreaTest -->
+      <class name="com.profiler.data.ClinicalActivityType">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.data.ClinicalActivityType -->
+      <class name="com.profiler.contractmgt.CountryPaymentThreshold">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.contractmgt.CountryPaymentThreshold -->
+      <class name="com.profiler.classification.ProfileRoleTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.classification.ProfileRoleTest -->
+      <class name="com.profiler.data.OrganizationPosition">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.data.OrganizationPosition -->
+      <class name="com.profiler.data.InfluenceStrength">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.profiler.data.InfluenceStrength -->
+    </classes>
+  </test> <!-- ClassificationTest-H(failed) -->
+</suite> <!-- Failed suite [HeartBeat Test Suite] -->
